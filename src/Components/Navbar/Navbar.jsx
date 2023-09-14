@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './navbar.css'
 import { GiVacuumCleaner } from 'react-icons/gi';
 import { AiFillCloseCircle } from 'react-icons/ai';
@@ -6,7 +6,19 @@ import { AiOutlineMenu } from 'react-icons/ai';
 
 
 const Navbar = () => {
+    const [active, setActive] = useState('navBar')
+    // function to toggle navBar
+    const showNav = () => {
+        setActive('navBar activeNavbar')
+    }
+
+     // function to remove navBar
+     const removeNav = () => {
+        setActive('navBar')
+    }
+
   return (
+
     <section className='navBarSection'>
         <header className='header flex'>
 
@@ -17,7 +29,7 @@ const Navbar = () => {
                 </a>
             </div>
 
-            <div className='navBar'>
+            <div className={active}>
                 <ul className='navLists flex'>
                     <li className='navItem'>
                         <a href="#" className='navLink'>Home</a>
@@ -44,12 +56,13 @@ const Navbar = () => {
                     </button>
                 </ul>
 
-                <div className='closeNavbar'>
+                <div onClick={removeNav}
+                 className='closeNavbar'>
                     <AiFillCloseCircle  className='icon'/>
                 </div>
             </div>
 
-            <div className='toggleNavBar'>
+            <div onClick={showNav} className='toggleNavBar'>
                 <AiOutlineMenu className='icon' />
             </div>
         </header>

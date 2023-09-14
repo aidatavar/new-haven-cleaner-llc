@@ -58,7 +58,7 @@
     height: max-content;
     width: 80%;
     border-radius: 1rem;
-    top: 6rem;
+    top: -500rem;
     left: 50%;
     padding: 1rem;
     -webkit-transform: translate(-50%);
@@ -66,8 +66,8 @@
     z-index: 2000;
     -webkit-box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
             box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
+    -webkit-transition: .1s ease-in-out;
+    transition: .1s ease-in-out;
   }
   .header .navBar .navLists {
     -webkit-box-orient: vertical;
@@ -99,14 +99,17 @@
     font-weight: 600;
     color: var(--white-color);
   }
-  .header .closeNavbar {
+  .header .navBar .closeNavbar {
     position: absolute;
     top: 1rem;
     right: 1.5rem;
     color: var(--primary-color);
   }
-  .header .closeNavbar:hover {
+  .header .navBar .closeNavbar:hover {
     color: var(--secondary-color);
+  }
+  .header .activeNavbar {
+    top: 7rem;
   }
 }
 
