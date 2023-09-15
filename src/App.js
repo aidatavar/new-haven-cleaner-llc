@@ -2,7 +2,7 @@ import React from 'react'
 import './app.css'
 import Navbar from './Components/Navbar/Navbar';
 import Home from './Components/Home/Home';
-// import Main from './Components/Main/Main'
+import Main from './Components/Main/Main'
 // import Footer from './Components/Footer/Footer'
 // import About from './Components/About/About';
 
@@ -11,8 +11,8 @@ const App = () => {
     <>
     <Navbar />
     <Home />
-    {/* <About />
     <Main />
+    {/* <About />
     <Footer /> */}
     </>
   )

@@ -1,1 +1,71 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+:root {
+  --primary-color: hsl(199, 100%, 33%);
+  --secondary-color: hsl(187, 85%, 43%);
+  --gradient-color: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 100%, 33%));
+  --white-color: hsl(0, 0%, 100%);
+  --black-color: hsl(201, 33%, 16%);
+  --text-color: hsl(240, 4%, 36%);
+  --white-color-cream: hsl(0, 0%, 93%);
+  --grey-text: rgb(190, 190, 190);
+  --input-color: rgb(239, 239, 239);
+  --body-color: rgb(240, 240, 240);
+  --card-bg-color: rgb(225, 225, 225);
+}
+
+.main {
+  width: 100%;
+  position: relative;
+  padding: 2rem;
+}
+
+.main .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 2rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+.main .cardDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+  text-align: center;
+}
+
+.main .cardDiv .item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 2px;
+  padding: 10px;
+}
+
+.main .cardDiv .subtitle {
+  font-weight: 700;
+  font-size: 15px;
+  padding: 1rem 0 1rem 0;
+}
+
+.main .cardDiv .small-text {
+  font-size: 13px;
+}
+
+.main .icon {
+  font-size: 3rem;
+  color: var(--primary-color);
+}
+/*# sourceMappingURL=main.css.map */
