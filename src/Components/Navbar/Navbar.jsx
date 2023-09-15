@@ -44,7 +44,7 @@ const Navbar = () => {
                     </li>
 
                     <li className='navItem'>
-                        <a href="#" className='navLink'>Book an estimate </a>
+                        <a href="#" className='navLink'>Quote</a>
                     </li>
                     
                     <li className='navItem'>
