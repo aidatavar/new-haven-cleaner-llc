@@ -1,10 +1,16 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './main.css'
 import {BsFillHouseCheckFill} from 'react-icons/bs'
 import {FaHandSparkles} from 'react-icons/fa'
 import {BiHomeSmile} from 'react-icons/bi'
 
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 const main = () => {
+
+
+
   return (
     <section className='main container'>
       <h1 className='title'>How it works?</h1>
