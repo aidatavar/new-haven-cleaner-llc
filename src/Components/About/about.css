@@ -25,7 +25,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: auto;
+  margin: 1rem;
 }
 
 .about img {
@@ -63,5 +63,17 @@
   font-size: 13px;
   font-weight: 400;
   color: var(--text-color);
+}
+
+@media screen and (min-width: 765px) {
+  .about .setContent {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .about .setContent .column {
+    padding: 0 1rem;
+  }
 }
 /*# sourceMappingURL=about.css.map */

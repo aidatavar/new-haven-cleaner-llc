@@ -19,7 +19,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: auto;
+    margin: 1rem;
     
     img{
         height: auto;
@@ -50,3 +50,19 @@
     }
 }
 
+// MEDIA QUERIES
+
+@media screen and (min-width: 765px) {
+   .about{
+
+    .setContent{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .column{
+            padding: 0 1rem;
+
+        }
+    }
+   }
+}

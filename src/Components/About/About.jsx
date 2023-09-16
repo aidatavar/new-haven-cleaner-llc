@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section className='about grid'>
       <div className="setContent">
-        <div className="colum">
+        <div className="column">
       <img src={image} alt="detergent in a basket" />
       </div>
 
