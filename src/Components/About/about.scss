@@ -11,3 +11,42 @@
     --body-color: rgb(240, 240, 240);
     --card-bg-color: rgb(225, 225, 225);
 }
+
+.about{
+    width: 100%;
+    position: relative;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    
+    img{
+        height: auto;
+        border-radius: .5rem;
+    }
+   
+    .setContent{
+        width: 100%;
+        height: max-content;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+        row-gap: 2rem;
+        z-index: 100;
+
+        h2{
+            font-size: 1.8rem;
+            padding-bottom: .5rem;
+            font-weight: 600;
+        }
+
+        .text{
+            font-size: 13px;
+            font-weight: 400;
+            color: var(--text-color);
+        }
+    }
+}
+

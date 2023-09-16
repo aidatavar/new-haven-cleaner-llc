@@ -74,6 +74,7 @@ const Footer = () => {
                  <FiChevronRight className="icon"/>Payments
                </li>
              </div>
+             
             {/* Group two */}
             <div className="linkGroup">
                <span className='groupTitle'>
