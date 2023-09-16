@@ -59,3 +59,34 @@
      
     }
 }
+
+// MEDIA QUERIES
+
+@media screen and (min-width: 500px) {
+    .title{
+        font-size: 1.5rem;
+        &::after{
+            width: 155px !important;
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .title{
+        font-size: 2rem;
+        &::after{
+            width: 155px !important;
+        }
+
+    }
+
+    .cardDiv{
+        .item{
+            justify-content: space-around;
+        }
+        
+
+    }
+
+    
+}
