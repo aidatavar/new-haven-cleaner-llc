@@ -1,0 +1,91 @@
+:root {
+  --primary-color: hsl(199, 100%, 33%);
+  --secondary-color: hsl(187, 85%, 43%);
+  --gradient-color: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 90%, 25%));
+  --white-color: hsl(0, 0%, 100%);
+  --black-color: hsl(201, 33%, 16%);
+  --text-color: hsl(240, 4%, 36%);
+  --white-color-cream: hsl(0, 0%, 93%);
+  --grey-text: rgb(190, 190, 190);
+  --input-color: rgb(239, 239, 239);
+  --body-color: rgb(240, 240, 240);
+  --card-bg-color: rgb(225, 225, 225);
+}
+
+.carousel {
+  width: 100%;
+  height: 500px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.carousel .carouselInner {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: ease-in-out;
+  transition: ease-in-out;
+}
+
+.carousel .carouselInner .left {
+  -webkit-box-flex: 2.5%;
+      -ms-flex: 2.5%;
+          flex: 2.5%;
+  height: 100%;
+  background: rgba(71, 78, 80, 0.6);
+}
+
+.carousel .carouselInner .left .icon {
+  color: var(--white-color);
+  margin-left: 5px;
+  font-size: 1.5rem;
+}
+
+.carousel .carouselInner .spaceBetween {
+  padding: 3rem;
+}
+
+.carousel .carouselInner .spaceBetween .center {
+  -webkit-box-flex: 95%;
+      -ms-flex: 95%;
+          flex: 95%;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  text-align: justify;
+  text-align-last: center;
+  color: var(--white-color);
+}
+
+.carousel .carouselInner .spaceBetween .center .cardDiv {
+  background: rgba(92, 108, 110, 0.886);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.carousel .carouselInner .spaceBetween .center .btn {
+  margin-top: 2rem;
+  color: var(--white-color);
+}
+
+.carousel .carouselInner .right {
+  -webkit-box-flex: 2.5%;
+      -ms-flex: 2.5%;
+          flex: 2.5%;
+  height: 100%;
+  background: rgba(71, 78, 80, 0.6);
+}
+
+.carousel .carouselInner .right .icon {
+  color: var(--white-color);
+  margin-left: 5px;
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=carousel.css.map */

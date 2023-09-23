@@ -23,7 +23,7 @@ const main = () => {
         </div>
 
         <div className='item'>
-          <FaHandSparkles className='icon'/><break />
+          <FaHandSparkles className='icon'/>
         <h2 className='subtitle'>CLEAN</h2>
 
         <span className='small-text'>After we give an estimate professional cleaners will come and clean your home</span>

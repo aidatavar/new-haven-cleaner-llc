@@ -1,0 +1,82 @@
+:root{
+    --primary-color: hsl(199, 100%, 33%);
+    --secondary-color: hsl(187, 85%, 43%);
+    --gradient-color: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 90%, 25%));
+    --white-color: hsl(0, 0%, 100%);
+    --black-color: hsl(201, 33%, 16%);
+    --text-color: hsl(240, 4%, 36%);
+    --white-color-cream: hsl(0, 0%, 93%);
+    --grey-text: rgb(190, 190, 190);
+    --input-color: rgb(239, 239, 239);
+    --body-color: rgb(240, 240, 240);
+    --card-bg-color: rgb(225, 225, 225);
+}
+
+
+.carousel{
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+
+    .carouselInner{
+        height: 100%;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        transition: ease-in-out;
+
+        .left{
+            flex: 2.5%;
+            height: 100%;
+            background: rgba(71, 78, 80, 0.6);
+            
+
+            .icon{
+                color: var(--white-color);
+                margin-left: 5px;
+                font-size: 1.5rem;
+            }
+        }
+        .spaceBetween{
+            padding: 3rem;
+     
+        .center{
+            flex: 95%;
+            height: 100%;
+            display: grid;
+            place-items: center;
+            text-align: justify;
+            text-align-last: center;
+            color: var(--white-color);
+
+                .cardDiv{
+                    background: rgba(92, 108, 110, 0.886);
+                    padding: 2rem;
+                    border-radius: 1rem;
+                }
+
+                .btn{
+                    margin-top: 2rem;
+                    color: var(--white-color);
+                }
+            
+        }
+
+         }
+        .right{
+            flex: 2.5%;
+            height: 100%;
+            background: rgba(71, 78, 80, 0.6);
+
+            .icon{
+                color: var(--white-color);
+                margin-left: 5px;
+                font-size: 1.5rem;
+            }
+        }
+        
+    }
+
+}
