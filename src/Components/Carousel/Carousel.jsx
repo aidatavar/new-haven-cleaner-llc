@@ -11,12 +11,22 @@ const Carousel = () => {
     let intervalTime = 5000;
   
     const nextSlide = () => {
-      currentImg < images.length - 1 && setCurrentImg(currentImg + 1)
-    }
+      if (currentImg === images.length - 1) {
+          setCurrentImg(0);  
+          // Go back to the first image when the end is reached
+      } else {
+          setCurrentImg(currentImg + 1);
+      }
+  }
 
-    const prevSlide = () => {
-      currentImg > 0 && setCurrentImg(currentImg - 1)
+  const prevSlide = () => {
+    if (currentImg === 0) {
+        setCurrentImg(images.length - 1);  
+        // Go to the last image when the beginning is reached
+    } else {
+        setCurrentImg(currentImg - 1);
     }
+}
   
   function auto() {
     slideInterval = setInterval(nextSlide, intervalTime)
@@ -35,6 +45,7 @@ const Carousel = () => {
 
   return (
     <div className='carousel flex'>
+
         <div className="carouselInner" style={{backgroundImage: `url(${images[currentImg].img})`}}>
 
             <div className="left grid"
@@ -57,6 +68,7 @@ const Carousel = () => {
               <AiOutlineRight className='icon'/>
             </div>
         </div>
+
     </div>
   )
 }
