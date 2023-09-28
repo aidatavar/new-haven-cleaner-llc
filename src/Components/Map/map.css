@@ -29,11 +29,15 @@
 }
 
 .map .setContent {
+  width: 100%;
   background-color: white;
 }
 
 .map .setContent img {
-  height: auto;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .map .setContent .mapContent {
@@ -50,6 +54,9 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border-bottom: 3px var(--primary-color) solid;
+  border-bottom-width: 5px;
+  padding-bottom: 5px;
 }
 
 .map .setContent .mapContent .listDiv {
@@ -80,16 +87,41 @@
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     font-size: small;
-    margin: -1.5rem;
   }
   .map .setContent img {
-    height: 100%;
     width: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
   }
   .map .setContent .column {
     padding: 0 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .map .setContent img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .map .setContent {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    font-size: small;
+    margin: -1.5rem;
+    width: 100%;
+  }
+  .map .setContent img {
+    width: 100%;
+  }
+  .map .setContent .mapContent {
+    font-size: medium;
+    margin-top: 4rem;
+  }
+  .map .setContent .column2 {
+    padding: 0 1rem;
+    width: 100%;
   }
 }
 /*# sourceMappingURL=map.css.map */

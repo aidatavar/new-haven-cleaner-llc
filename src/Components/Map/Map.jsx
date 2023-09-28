@@ -4,12 +4,9 @@ import image from '../../Assets/map.png'
 
 const Map = () => {
   return (
-
     <section className='map grid'>
     <div className="setContent">
-    <div className="column">
-    <img src={image} alt="new haven map" />
-    </div>
+
     <div className="column">
     <div className="mapContent">
       <h2 >Areas We Serve </h2>
@@ -48,8 +45,13 @@ const Map = () => {
     </div>
     </div>
 
+    <div className="column2">
+    <img className='imageMap' src={image} alt="new haven map" />
+    </div>
+
     </div>
   </section>
+
   )
 }
 

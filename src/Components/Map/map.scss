@@ -13,6 +13,7 @@
     --card-bg-color: rgb(225, 225, 225);
 }
 
+
 .map{
     width: 100%;
     position: relative;
@@ -22,20 +23,30 @@
     justify-content: center;
 
     .setContent{
+        width: 100%;
         background-color: white;
 
-    img{
-        height: auto;
-    }
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            
+            }
 
     .mapContent{
         margin: 2rem;
+
 
         
         h2{
             display: flex;
             align-items: center;
             justify-content: center;
+            border-bottom: 3px var(--primary-color) solid;
+            border-bottom-width: 5px;
+            padding-bottom: 5px;
+            
+
         }
         .listDiv{
             display: grid;
@@ -55,7 +66,6 @@
 
 }
 
-
 @media screen and (min-width: 765px) {
     .map{
         
@@ -63,14 +73,11 @@
          display: grid;
          grid-template-columns: 1fr 1fr;
          font-size: small;
-         margin: -1.5rem;
 
          img{
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
+             width: 100%;
          }
- 
+
          .column{
              padding: 0 1rem;
  
@@ -79,4 +86,43 @@
     }
  }
 
+ @media screen and (min-width: 1024px) {
+     .map{
+         .setContent{
+            img{
+                width: 100%;
+            }
+         }
+     }
+
+
+ }
+
+@media screen and (min-width: 1440px) {
+    .map{
+        
+     .setContent{
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         font-size: small;
+         margin: -1.5rem;
+         width: 100%;
+         
+         img{
+            width: 100%;
+        }
+
+         .mapContent{
+             font-size: medium;
+             margin-top: 4rem;
+
+         }
  
+         .column2{
+            padding: 0 1rem;
+            width: 100%;
+
+         }
+     }
+    }
+ }
