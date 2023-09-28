@@ -12,4 +12,84 @@
   --body-color: rgb(240, 240, 240);
   --card-bg-color: rgb(225, 225, 225);
 }
+
+.map {
+  width: 100%;
+  position: relative;
+  padding: 0 0 3rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.map .setContent {
+  background-color: white;
+}
+
+.map .setContent img {
+  height: auto;
+}
+
+.map .setContent .mapContent {
+  margin: 2rem;
+}
+
+.map .setContent .mapContent h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.map .setContent .mapContent .listDiv {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 1.5rem;
+}
+
+.map .setContent .mapContent .listDiv .list {
+  margin: 0 2.5rem;
+}
+
+@media screen and (min-width: 765px) {
+  .map .setContent {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    font-size: small;
+    margin: -1.5rem;
+  }
+  .map .setContent img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .map .setContent .column {
+    padding: 0 1rem;
+  }
+}
 /*# sourceMappingURL=map.css.map */

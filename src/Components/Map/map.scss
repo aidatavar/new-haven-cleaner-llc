@@ -12,3 +12,71 @@
     --body-color: rgb(240, 240, 240);
     --card-bg-color: rgb(225, 225, 225);
 }
+
+.map{
+    width: 100%;
+    position: relative;
+    padding: 0 0 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .setContent{
+        background-color: white;
+
+    img{
+        height: auto;
+    }
+
+    .mapContent{
+        margin: 2rem;
+
+        
+        h2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .listDiv{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 1.5rem;
+
+            .list{
+                margin: 0 2.5rem;
+            }
+
+        }
+    }
+}
+
+}
+
+
+@media screen and (min-width: 765px) {
+    .map{
+        
+     .setContent{
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         font-size: small;
+         margin: -1.5rem;
+
+         img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+         }
+ 
+         .column{
+             padding: 0 1rem;
+ 
+         }
+     }
+    }
+ }
+
+ 
