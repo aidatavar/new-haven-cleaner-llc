@@ -59,7 +59,7 @@ const Carousel = () => {
               <h1>{images[currentImg].title}</h1>
               <p>{images[currentImg].paragraph}</p>
               <button className='btn'>{images[currentImg].button}</button>
-              </div>
+            </div>
             </div>
             </div>
             <div className="right grid"

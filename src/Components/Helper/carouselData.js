@@ -30,7 +30,7 @@ export const images = [
         img: image4
     },
     {
-        title: "Post-construction site",
+        title: "Post-construction",
         paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas a harum officiis sapiente illo quod debitis officia totam blanditiis",
         button: "learn more",
         img: image5
