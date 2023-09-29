@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import './navbar.css'
+import Dropdown from '../Dropdown/Dropdown';
 import { GiVacuumCleaner } from 'react-icons/gi';
 import { AiFillCloseCircle } from 'react-icons/ai';
 import { AiOutlineMenu } from 'react-icons/ai';
@@ -16,6 +17,9 @@ const Navbar = () => {
      const removeNav = () => {
         setActive('navBar')
     }
+
+    const options = ['Home', 'Apartment', 'AirBnb', 'Office', 'Post-construction'];
+    const defaultOption = options[0];
 
   return (
 
@@ -40,12 +44,12 @@ const Navbar = () => {
                     </li>
 
                     <li className='navItem'>
-                        <a href="#" className='navLink'>Services</a>
+                        <Dropdown/>
                     </li>
 
-                    <li className='navItem'>
+                    {<li className='navItem'>
                         <a href="#" className='navLink'>Quote</a>
-                    </li>
+                    </li>}
                     
                     <li className='navItem'>
                         <a href="#" className='navLink'>Contact</a>
