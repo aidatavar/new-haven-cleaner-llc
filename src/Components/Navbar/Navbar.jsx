@@ -30,10 +30,10 @@ const Navbar = () => {
         <header className='header flex'>
 
             <div className='logoDiv'>
-                <a href="/" className='logo flex'>
+                <Link to="/" className='logo flex'>
                     <h1> <GiVacuumCleaner className='icon'/>
                         New Haven Cleaners LLC</h1>
-                </a>
+                </Link>
             </div>
 
             <div className={active}>
