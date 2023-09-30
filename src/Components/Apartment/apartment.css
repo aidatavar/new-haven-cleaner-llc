@@ -12,16 +12,16 @@
   --card-bg-color: rgb(225, 225, 225);
 }
 
-.home {
+.apartment {
   letter-spacing: 1px;
 }
 
-.home header {
+.apartment header {
   background: #2b424d;
   overflow: hidden;
 }
 
-.home header img {
+.apartment header img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -35,11 +35,11 @@
   height: auto;
 }
 
-.home header .content {
+.apartment header .content {
   text-align: center;
 }
 
-.home header .content .cardDiv {
+.apartment header .content .cardDiv {
   position: absolute;
   top: 15%;
   left: 50%;
@@ -51,59 +51,59 @@
   font-size: .6rem;
 }
 
-.home header .content .cardDiv h1 {
+.apartment header .content .cardDiv h1 {
   text-transform: uppercase;
 }
 
-.home header .content .cardDiv p {
+.apartment header .content .cardDiv p {
   color: var(--text-color);
 }
 
-.home .mainHeader {
+.apartment .mainHeader {
   margin: 1.5rem;
   text-align: center;
 }
 
-.home .mainHeader h2 {
+.apartment .mainHeader h2 {
   text-transform: uppercase;
   font-weight: 400;
   font-family: poppins, sans-serif;
   padding: .5rem;
 }
 
-.home .mainContent {
+.apartment .mainContent {
   margin: 2rem;
   text-align: center;
 }
 
-.home .mainContent .col .paragraph {
+.apartment .mainContent .col .paragraph {
   margin: 2rem;
   color: var(--text-color);
   text-transform: inherit;
 }
 
-.home .mainContent .col .paragraph h3 {
+.apartment .mainContent .col .paragraph h3 {
   margin-bottom: .5rem;
   font-weight: 550;
   font-family: italic;
 }
 
-.home .mainContent .col .paragraph p {
+.apartment .mainContent .col .paragraph p {
   margin-bottom: 2rem;
   color: var(--text-color);
 }
 
-.home .threeCol {
+.apartment .threeCol {
   text-align: center;
   margin: 2rem;
 }
 
-.home .threeCol p {
+.apartment .threeCol p {
   color: var(--text-color);
   padding-bottom: 2rem;
 }
 
-.home .threeCol .headingCustomize h4 {
+.apartment .threeCol .headingCustomize h4 {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.5rem;
@@ -111,15 +111,15 @@
   z-index: 1;
 }
 
-.home .threeCol .headingCustomize hr {
+.apartment .threeCol .headingCustomize hr {
   margin-bottom: 1rem;
 }
 
-.home .threeCol .col2 {
+.apartment .threeCol .col2 {
   margin: .5rem;
 }
 
-.home .threeCol .col2 h5 {
+.apartment .threeCol .col2 h5 {
   font-weight: 500;
   font-size: 1.2rem;
   margin-top: .5rem;
@@ -129,42 +129,42 @@
           justify-content: space-between;
 }
 
-.home .threeCol .col2 p {
+.apartment .threeCol .col2 p {
   margin-top: .5rem;
 }
 
 @media screen and (min-width: 765px) {
-  .home header .content .cardDiv {
+  .apartment header .content .cardDiv {
     top: 25%;
     padding: 2rem;
     margin: 1rem;
     font-size: 1rem;
   }
-  .home .mainContent {
+  .apartment .mainContent {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
   }
-  .home .threeCol .colContent {
+  .apartment .threeCol .colContent {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
     font-size: 1rem;
   }
-  .home .threeCol .colContent h5 {
+  .apartment .threeCol .colContent h5 {
     font-size: 20px;
     font-weight: 400;
     letter-spacing: .5px;
   }
-  .home .threeCol .colContent p {
+  .apartment .threeCol .colContent p {
     letter-spacing: 1px;
   }
-  .home .threeCol .colContent .col2 {
+  .apartment .threeCol .colContent .col2 {
     margin: 1rem;
   }
-  .home .threeCol .colContent img {
+  .apartment .threeCol .colContent img {
     max-width: 100%;
     height: 200px;
     background-size: cover;
@@ -174,11 +174,11 @@
 }
 
 @media screen and (min-width: 1020px) {
-  .home header h1 {
+  .apartment header h1 {
     letter-spacing: 2px;
     font-size: larger;
   }
-  .home header .content .cardDiv {
+  .apartment header .content .cardDiv {
     top: 33%;
     padding: 2rem;
     margin: 1rem;
@@ -187,24 +187,24 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .home header .content .cardDiv {
+  .apartment header .content .cardDiv {
     top: 44%;
   }
-  .home .mainContent {
+  .apartment .mainContent {
     margin: 3rem;
   }
-  .home .mainContent .col {
+  .apartment .mainContent .col {
     padding: .5rem;
     margin: .5rem;
   }
-  .home .threeCol .headingCustomize {
+  .apartment .threeCol .headingCustomize {
     margin: 3rem;
   }
 }
 
 @media screen and (min-width: 2560px) {
-  .home header .content .cardDiv {
+  .apartment header .content .cardDiv {
     top: 90%;
   }
 }
-/*# sourceMappingURL=home.css.map */
+/*# sourceMappingURL=apartment.css.map */

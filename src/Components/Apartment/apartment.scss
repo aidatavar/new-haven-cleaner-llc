@@ -13,7 +13,7 @@
     --card-bg-color: rgb(225, 225, 225);
 }
 
-.home{
+.apartment{
     letter-spacing: 1px;
 
     header{
@@ -135,7 +135,7 @@
 }
 
 @media screen and (min-width: 765px) {
-    .home{
+    .apartment{
         header{
             .content{
                 .cardDiv{
@@ -189,7 +189,7 @@
 }
 
 @media screen and (min-width: 1020px) {
-    .home{
+    .apartment{
 
         header{
             h1{
@@ -210,7 +210,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-    .home{
+    .apartment{
         header{
             .content{
                 .cardDiv{
@@ -238,7 +238,7 @@
 }
 
 @media screen and (min-width: 2560px) {
-    .home{
+    .apartment{
         header{
             .content{
                 .cardDiv{
