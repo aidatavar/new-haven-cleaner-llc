@@ -29,7 +29,7 @@
             display: flex;
             opacity: 0.4;
             max-width: 100%;
-            height: auto;
+            height: 500px;
         }
     
         .content{
@@ -37,7 +37,7 @@
     
         .cardDiv{
             position: absolute;
-            top: 15%;
+            top: 35%;
             left: 50%;
             transform: translate(-50%, -50%);
             background: rgba(241, 246, 247, 0.893);
@@ -144,7 +144,7 @@
         header{
             .content{
                 .cardDiv{
-                    top: 44%;
+                    top: 25%;
                 }
             }
             
@@ -167,7 +167,7 @@
         header{
             .content{
                 .cardDiv{
-                    top: 90%;
+                    top: 40%;
                 }
             }
             

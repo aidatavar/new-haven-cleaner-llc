@@ -12,16 +12,15 @@
   --card-bg-color: rgb(225, 225, 225);
 }
 
-.office {
+.construction {
   letter-spacing: 1px;
 }
 
-.office header {
+.construction header {
   background: #2b424d;
-  overflow: hidden;
 }
 
-.office header img {
+.construction header img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -32,88 +31,71 @@
   display: flex;
   opacity: 0.4;
   max-width: 100%;
-  height: 500px;
+  height: auto;
 }
 
-.office header .content {
+.construction header .content {
   text-align: center;
 }
 
-.office header .content .cardDiv {
+.construction header .content .cardDiv {
   position: absolute;
-  top: 35%;
+  top: 15%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   background: rgba(241, 246, 247, 0.893);
   padding: .7rem;
   border-radius: 1rem;
-  font-size: .6rem;
+  font-size: .7rem;
 }
 
-.office header .content .cardDiv h1 {
+.construction header .content .cardDiv h1 {
   text-transform: uppercase;
 }
 
-.office header .content .cardDiv p {
+.construction header .content .cardDiv p {
   color: var(--text-color);
 }
 
-.office .mainHeader {
-  margin: 1.5rem;
-  text-align: center;
-}
-
-.office .mainHeader h2 {
-  text-transform: uppercase;
-  font-weight: 400;
-  font-family: poppins, sans-serif;
-  padding: .5rem;
-}
-
-.office .mainContent {
+.construction .content {
   margin: 2rem;
   text-align: center;
+  font-size: .8rem;
 }
 
-.office .mainContent .col .paragraph {
+.construction .content h3 {
   margin: 2rem;
-  color: var(--text-color);
-  text-transform: inherit;
+  font-weight: 500;
 }
 
-.office .mainContent .col .paragraph h3 {
-  margin-bottom: .5rem;
-  font-weight: 550;
-  font-family: italic;
-}
-
-.office .mainContent .col .paragraph p {
-  margin-bottom: 2rem;
-  color: var(--text-color);
+@media screen and (min-width: 370px) {
+  .construction header .content .cardDiv {
+    top: 22%;
+    padding: .3rem;
+    margin: 1rem;
+    font-size: .6rem;
+  }
+  .construction header .content .cardDiv h1 {
+    margin-bottom: .1rem;
+  }
 }
 
 @media screen and (min-width: 765px) {
-  .office header .content .cardDiv {
+  .construction header .content .cardDiv {
     top: 25%;
     padding: 2rem;
     margin: 1rem;
     font-size: 1rem;
   }
-  .office .mainContent {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-  }
 }
 
 @media screen and (min-width: 1020px) {
-  .office header h1 {
+  .construction header h1 {
     letter-spacing: 2px;
     font-size: larger;
   }
-  .office header .content .cardDiv {
+  .construction header .content .cardDiv {
     top: 33%;
     padding: 2rem;
     margin: 1rem;
@@ -122,21 +104,14 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .office header .content .cardDiv {
-    top: 25%;
-  }
-  .office .mainContent {
-    margin: 3rem;
-  }
-  .office .mainContent .col {
-    padding: .5rem;
-    margin: .5rem;
+  .construction header .content .cardDiv {
+    top: 44%;
   }
 }
 
 @media screen and (min-width: 2560px) {
-  .office header .content .cardDiv {
-    top: 40%;
+  .construction header .content .cardDiv {
+    top: 90%;
   }
 }
-/*# sourceMappingURL=office.css.map */
+/*# sourceMappingURL=Construction.css.map */

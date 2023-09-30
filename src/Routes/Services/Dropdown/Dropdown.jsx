@@ -29,7 +29,7 @@ const Dropdown = () => {
             <Link to="/Office">Office</Link>
             </div>
             <div className="dropdown-item">
-                Post-construction
+            <Link to="/Post-construction">Post-Construction</Link>
             </div>
         </div>
         )}
