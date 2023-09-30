@@ -1,9 +1,12 @@
 import React, {useState} from 'react'
+import { Link } from 'react-router-dom';
 import './navbar.css'
-import Dropdown from '../Dropdown/Dropdown';
+import Dropdown from '../../Routes/Services/Dropdown/Dropdown';
 import { GiVacuumCleaner } from 'react-icons/gi';
 import { AiFillCloseCircle } from 'react-icons/ai';
 import { AiOutlineMenu } from 'react-icons/ai';
+
+
 
 
 const Navbar = () => {
@@ -27,7 +30,7 @@ const Navbar = () => {
         <header className='header flex'>
 
             <div className='logoDiv'>
-                <a href="#" className='logo flex'>
+                <a href="/" className='logo flex'>
                     <h1> <GiVacuumCleaner className='icon'/>
                         New Haven Cleaners LLC</h1>
                 </a>
@@ -36,15 +39,11 @@ const Navbar = () => {
             <div className={active}>
                 <ul className='navLists flex'>
                     <li className='navItem'>
-                        <a href="#" className='navLink'>Home</a>
+                        <Link to="/" className='navLink'>Home</Link>
                     </li>
 
                     <li className='navItem'>
-                        <a href="#" className='navLink'>About</a>
-                    </li>
-
-                    <li className='navItem'>
-                        <Dropdown/>
+                        <Dropdown className='navLink'/>
                     </li>
 
                     {<li className='navItem'>

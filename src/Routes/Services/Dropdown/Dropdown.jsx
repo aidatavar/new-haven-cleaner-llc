@@ -1,6 +1,7 @@
 import {React, useState} from 'react'
 import './dropdown.css'
 import {MdArrowDropDown} from 'react-icons/md'
+import { Link } from 'react-router-dom';
 
 const Dropdown = () => {
     const [isActive, setIsActive] = useState(false);
@@ -16,7 +17,7 @@ const Dropdown = () => {
         {isActive && (
         <div className="dropdown-content">
             <div className="dropdown-item">
-                Home
+                <Link to="/Home">Home</Link>
             </div>
             <div className="dropdown-item">
                 Apartment

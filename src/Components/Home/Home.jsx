@@ -1,74 +1,187 @@
-import React, {useEffect} from 'react'
-import './home.css'
-import image from '../../Assets/clean-home.jpeg'
-import {GrLocation} from 'react-icons/gr'
-import {FiFacebook} from 'react-icons/fi'
-import {BsInstagram} from 'react-icons/bs'
-import {AiTwotoneMail} from 'react-icons/ai'
-import {AiOutlinePhone} from 'react-icons/ai'
-
-import Aos from 'aos'
-import 'aos/dist/aos.css'
+import React from 'react'
+import image1 from '../../Assets/home.jpeg'
+import image2 from '../../Assets/fridgeClean.jpeg'
+import image3 from '../../Assets/interiorOven.jpeg'
+import image4 from '../../Assets/windowClean.jpeg'
+import './home.scss'
 
 const Home = () => {
-  // Scroll animation
-  useEffect(() => {
-    Aos.init({duration: 2000})
-  }, []);
-
-
-
   return (
     <section className='home'>
-      <div className='overlay'></div>
-      <img src={image} alt="a clean living room"/> 
+      <header>
+        <img src={image1} alt="a clean home" />
+        <div className="content container">
+          <div className="cardDiv">
+            <h1>Home</h1>
+            <p>Home and Moving cleaning services, customizable to suit your needs.</p>
+          </div>
+        </div>
+      </header>
 
-    <div className='homeContent container'>
-      <div className="textDiv">
-        <span data-aos="fade-up" className="smallText">
-          Our Services
-        </span>
-        <h1 data-aos="fade-up" className="homeTitle">
-          High Quality Home Cleaning Service
-        </h1>
-      </div>
+      <section className='two-col'>
+        <div className='mainHeader'>
+          <h2>Premium home clean</h2>
+          <p>Weekly, Biweekly, Monthly or One-Time Cleaning Visits Available</p>
+        </div>
+        <div className='mainContent'>
+          <div className='col'>
+            <div className='paragraph'>
+              <h3>KITCHEN</h3>
+              <p>Sanitize countertops, sink and backsplash
+                Wash exterior of appliances and interior microwave
+                Wash any dirty dishes</p>
+              <p>Wipe down table legs, chairs, barstools
+                Wipe down cabinet exterior
+                Wash under sink by garbage
+              </p>
+            </div>
+            <div className='paragraph'>
+              <h3>BATHROOM</h3>
+              <p>Wipe-wash-polish sinks, tub/shower
+                Wipe-wash-polish toilets, base and bowl
+                Clean mirrors</p>
+              <p>Wipe down cabinet exterior
+                Polish all chrome surfaces
+                Wipe down baseboards
+              </p>
+            </div>
+          </div>
 
-      <div data-aos="fade-up" className='cardDiv grid'>
-            <div className="destinationInput">
-              <label htmlFor="city">Search your city:</label>
-              <div className='input flex'>
-                <input type="text" placeholder='Enter your city here...' />
-                <GrLocation className='icon'/>
-              </div>
+          <div className='col'>
+            <div className='paragraph'>
+              <h3>BEDROOMS</h3>
+              <p>Quick tidy and pick up
+                Dust all surfaces throughout home
+                Make beds
+              </p>
+            </div>
+            <div className='paragraph'>
+              <h3>ENTIRE HOME</h3>
+              <p>Quick tidy and pick up
+                Dust all surfaces throughout home
+              </p>
+              <p>Wet wipe all surfaces throughout home
+                Sanitize door knobs and light switches
+                Empty All Garbages
+                Sweep/Vacuum and Wash All Floors</p>
+            </div>
+            <div className='paragraph'>
+              <h3>PLUS:</h3>
+              <p>Wipe down windowsills
+                Spot wash interior windows</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className='threeCol'>
+        <div className='headingCustomize'>
+          <h4>Customize your home leaning</h4>
+          <hr />
+          <p>Choose Add-ons to supplement your cleaning visits. Now or later, you can enjoy any of these add-ons at any visit</p>
+        </div>
+
+        <div className='col2'>
+          <img src={image3} alt="cleaning an Oven" />
+          <h5>Interior Oven Clean</h5>
+          <p>Clean all racks, glass and oven walls</p>
+        </div>
+        <div className='col2'>
+          <img src={image2} alt="cleaning a fridge" />
+          <h5>Interior Fridge Clean</h5>
+          <p>Clean all shelves, drawers and walls</p>
+        </div>
+        <div className='col2'>
+          <img src={image4} alt="cleaning a window" />
+          <h5>Interior Window Clean</h5>
+          <p>Clean window sills, screens, glass and tracks</p>
+        </div>
+        <hr />
+      </section>
+
+      <section className='two-col'>
+        <div className='mainHeader'>
+          <h2>MOVING CLEAN</h2>
+        </div>
+        <div className='mainContent'>
+          <div className='col'>
+            <div className='paragraph'>
+              <h3>KITCHEN</h3>
+              <p>Sanitize countertops, sink and backsplash
+                Wash exterior of appliances and interior microwave</p>
+
+            </div>
+            <div className='paragraph'>
+              <h3>BATHROOM</h3>
+              <p>Wipe-wash-polish sinks, tub/shower
+                Wipe-wash-polish toilets, base and bowl
+                Clean mirrors</p>
+            </div>
+            <div className='paragraph'>
+              <h3>ENTIRE HOME</h3>
+              <p>Quick tidy and pick up
+                Dust throughout home
+                Sanitize door knobs and light switches
+                Empty All Garbages
+                Sweep/Vacuum and Wash All Floors
+              </p>
+            </div>
+            <div className='paragraph'>
+              <h3>DEEP CLEANING TASKS</h3>
+              <p>Wash reachable light fixtures
+                Wash visible baseboards, trim and doors
+                Clean floors underneath lightweight furniture
+              </p>
+            </div>
+            <div className='paragraph'>
+              <h3>MOVING CLEANING TASKS</h3>
+              <p>Wash all vents/wall grates
+                Wash interior of all cabinets and drawers
+                Wash interior vanities, louvres and closets
+              </p>
+            </div>
+            <p>Maximum height – as far as we can reach with 2-step ladder</p>
+          </div>
+
+          <div className='col'>
+          <div className='paragraph'>
+              <h3>PLUS:</h3>
+              <p>Wipe down table legs, chairs, barstools
+                Wipe down cabinet exterior
+                Wash under sink by garbage</p>
             </div>
 
-            <div className="dateInput">
-              <label htmlFor="city">Select your date:</label>
-              <div className='input flex'>
-                <input type="date" />
-              </div>
+            <div className='paragraph'>
+              <h3>PLUS:</h3>
+              <p>Wipe down cabinet exterior
+                Polish all chrome surfaces
+                Wipe down baseboards
+              </p>
             </div>
 
-            <button className='btn'>
-              <a href="#">START BOOKING</a>
-              </button>
-      </div>
+            <div className='paragraph'>
+              <h3>PLUS:</h3>
+              <p>Wipe down windowsills
+                Spot wash walls
+                Spot wash interior windows
+              </p>
+            </div>
 
-    <div data-aos="fade-up" className='homeFooterIcons flex'>
-      <div className='rightIcons'>
-        <FiFacebook className='icon'/>
-        <BsInstagram className='icon'/>
-      </div>
+            <div className='paragraph'>
+              <h3>Recommended Add-ons::</h3>
+              <p>Interior Oven Clean
+              Interior Fridge Clean
+              Complete Interior Window Clean
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-      <div className='leftIcons'>
-      <AiTwotoneMail className='icon'/>
-        <AiOutlinePhone className='icon'/>
-      </div>
-    </div>
-
-    </div>
     </section>
+
+
   )
 }
 
-export default Home;
+export default Home
