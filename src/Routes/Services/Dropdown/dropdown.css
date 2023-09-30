@@ -39,6 +39,10 @@
   border-radius: 5px;
 }
 
+.dropdown .dropdown-content .dropdown-item Link {
+  text-decoration: none;
+}
+
 .dropdown .dropdown-content .dropdown-item:hover {
   background-color: var(--primary-color);
   color: var(--white-color);

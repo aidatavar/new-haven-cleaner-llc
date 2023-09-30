@@ -13,7 +13,7 @@
     --card-bg-color: rgb(225, 225, 225);
 }
 
-.airbnb{
+.office{
     letter-spacing: 1px;
 
     header{
@@ -93,12 +93,10 @@
 
         }
     }
-
-
 }
 
 @media screen and (min-width: 765px) {
-    .airbnb{
+    .office{
         header{
             .content{
                 .cardDiv{
@@ -117,42 +115,11 @@
 
         }
 
-        .threeCol{
-            .colContent{
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
-                font-size: 1rem;
-
-                h5{
-                    font-size: 20px;
-                    font-weight: 400;
-                    letter-spacing: .5px;
-                }
-
-                p{
-                    letter-spacing: 1px;
-                }
-
-                .col2{
-                    margin: 1rem;
-                }
-
-                img{
-                    max-width: 100%;
-                    height: 200px;                    background-size: cover;
-                    object-fit: cover;
-                }
-
-
-            
-            }
-        }
-
     }
 }
 
 @media screen and (min-width: 1020px) {
-    .airbnb{
+    .office{
 
         header{
             h1{
@@ -173,7 +140,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-    .airbnb{
+    .office{
         header{
             .content{
                 .cardDiv{
@@ -192,16 +159,11 @@
             }
         }
     
-        .threeCol{
-            .headingCustomize{
-                margin: 3rem;
-            }
-        }
     }
 }
 
 @media screen and (min-width: 2560px) {
-    .airbnb{
+    .office{
         header{
             .content{
                 .cardDiv{

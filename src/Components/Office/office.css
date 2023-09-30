@@ -12,16 +12,16 @@
   --card-bg-color: rgb(225, 225, 225);
 }
 
-.airbnb {
+.office {
   letter-spacing: 1px;
 }
 
-.airbnb header {
+.office header {
   background: #2b424d;
   overflow: hidden;
 }
 
-.airbnb header img {
+.office header img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -35,11 +35,11 @@
   height: auto;
 }
 
-.airbnb header .content {
+.office header .content {
   text-align: center;
 }
 
-.airbnb header .content .cardDiv {
+.office header .content .cardDiv {
   position: absolute;
   top: 15%;
   left: 50%;
@@ -51,94 +51,69 @@
   font-size: .6rem;
 }
 
-.airbnb header .content .cardDiv h1 {
+.office header .content .cardDiv h1 {
   text-transform: uppercase;
 }
 
-.airbnb header .content .cardDiv p {
+.office header .content .cardDiv p {
   color: var(--text-color);
 }
 
-.airbnb .mainHeader {
+.office .mainHeader {
   margin: 1.5rem;
   text-align: center;
 }
 
-.airbnb .mainHeader h2 {
+.office .mainHeader h2 {
   text-transform: uppercase;
   font-weight: 400;
   font-family: poppins, sans-serif;
   padding: .5rem;
 }
 
-.airbnb .mainContent {
+.office .mainContent {
   margin: 2rem;
   text-align: center;
 }
 
-.airbnb .mainContent .col .paragraph {
+.office .mainContent .col .paragraph {
   margin: 2rem;
   color: var(--text-color);
   text-transform: inherit;
 }
 
-.airbnb .mainContent .col .paragraph h3 {
+.office .mainContent .col .paragraph h3 {
   margin-bottom: .5rem;
   font-weight: 550;
   font-family: italic;
 }
 
-.airbnb .mainContent .col .paragraph p {
+.office .mainContent .col .paragraph p {
   margin-bottom: 2rem;
   color: var(--text-color);
 }
 
 @media screen and (min-width: 765px) {
-  .airbnb header .content .cardDiv {
+  .office header .content .cardDiv {
     top: 25%;
     padding: 2rem;
     margin: 1rem;
     font-size: 1rem;
   }
-  .airbnb .mainContent {
+  .office .mainContent {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
   }
-  .airbnb .threeCol .colContent {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
-    font-size: 1rem;
-  }
-  .airbnb .threeCol .colContent h5 {
-    font-size: 20px;
-    font-weight: 400;
-    letter-spacing: .5px;
-  }
-  .airbnb .threeCol .colContent p {
-    letter-spacing: 1px;
-  }
-  .airbnb .threeCol .colContent .col2 {
-    margin: 1rem;
-  }
-  .airbnb .threeCol .colContent img {
-    max-width: 100%;
-    height: 200px;
-    background-size: cover;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
 }
 
 @media screen and (min-width: 1020px) {
-  .airbnb header h1 {
+  .office header h1 {
     letter-spacing: 2px;
     font-size: larger;
   }
-  .airbnb header .content .cardDiv {
+  .office header .content .cardDiv {
     top: 33%;
     padding: 2rem;
     margin: 1rem;
@@ -147,24 +122,21 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .airbnb header .content .cardDiv {
+  .office header .content .cardDiv {
     top: 44%;
   }
-  .airbnb .mainContent {
+  .office .mainContent {
     margin: 3rem;
   }
-  .airbnb .mainContent .col {
+  .office .mainContent .col {
     padding: .5rem;
     margin: .5rem;
-  }
-  .airbnb .threeCol .headingCustomize {
-    margin: 3rem;
   }
 }
 
 @media screen and (min-width: 2560px) {
-  .airbnb header .content .cardDiv {
+  .office header .content .cardDiv {
     top: 90%;
   }
 }
-/*# sourceMappingURL=airBnb.css.map */
+/*# sourceMappingURL=office.css.map */

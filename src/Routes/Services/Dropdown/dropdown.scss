@@ -31,6 +31,10 @@
             padding: 10px;
             transition: all 0.2s;
             border-radius: 5px;
+
+            Link{
+                text-decoration: none;
+            }
         }
 
         .dropdown-item:hover{
