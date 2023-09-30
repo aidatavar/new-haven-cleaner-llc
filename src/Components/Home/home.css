@@ -41,7 +41,7 @@
 
 .home header .content .cardDiv {
   position: absolute;
-  top: 15%;
+  top: 25%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
