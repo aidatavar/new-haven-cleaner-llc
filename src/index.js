@@ -5,6 +5,7 @@ import Deposit from "./Routes/DepositPage"
 import Quote from "./Routes/QuotePage"
 import HomePage from "./Routes/Services/HomePage";
 import ApartmentPage from "./Routes/Services/ApartmentPage";
+import AirBnbPage from "./Routes/Services/AirBnbPage";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -18,6 +19,7 @@ root.render(
            <Route path="/Deposit" element={<Deposit />}/>
            <Route path="/Home" element={<HomePage />}/>
            <Route path="/Apartment" element={<ApartmentPage />}/>
+           <Route path="/Airbnb" element={<AirBnbPage />}/>
        </Routes>
     </BrowserRouter>
 )

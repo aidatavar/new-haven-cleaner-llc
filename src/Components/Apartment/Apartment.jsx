@@ -76,7 +76,7 @@ const Apartment = () => {
 
     <section className='threeCol'>
       <div className='headingCustomize'>
-        <h4>Customize your apartment leaning</h4>
+        <h4>Customize your apartment cleaning</h4>
         <hr />
         <p>Choose Add-ons to supplement your cleaning visits. Now or later, you can enjoy any of these add-ons at any visit</p>
       </div>
