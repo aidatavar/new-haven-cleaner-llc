@@ -81,6 +81,7 @@ const Home = () => {
           <p>Choose Add-ons to supplement your cleaning visits. Now or later, you can enjoy any of these add-ons at any visit</p>
         </div>
 
+        <div className='colContent'>
         <div className='col2'>
           <img src={image3} alt="cleaning an Oven" />
           <h5>Interior Oven Clean</h5>
@@ -95,6 +96,7 @@ const Home = () => {
           <img src={image4} alt="cleaning a window" />
           <h5>Interior Window Clean</h5>
           <p>Clean window sills, screens, glass and tracks</p>
+        </div>
         </div>
         <hr />
       </section>
@@ -140,7 +142,6 @@ const Home = () => {
                 Wash interior vanities, louvres and closets
               </p>
             </div>
-            <p>Maximum height – as far as we can reach with 2-step ladder</p>
           </div>
 
           <div className='col'>
@@ -173,6 +174,7 @@ const Home = () => {
               Interior Fridge Clean
               Complete Interior Window Clean
               </p>
+              <p>Maximum height – as far as we can reach with 2-step ladder</p>
             </div>
           </div>
         </div>

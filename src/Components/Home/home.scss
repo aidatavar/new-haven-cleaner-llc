@@ -14,6 +14,7 @@
 }
 
 .home{
+    letter-spacing: 1px;
 
     header{
 
@@ -24,8 +25,11 @@
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
+            object-fit: cover;
             display: flex;
             opacity: 0.4;
+            max-width: 100%;
+            height: auto;
         }
     
         .content{
@@ -128,4 +132,121 @@
             }
         }
     }
+}
+
+@media screen and (min-width: 765px) {
+    .home{
+        header{
+            .content{
+                .cardDiv{
+                    top: 25%;
+                    padding: 2rem;
+                    margin: 1rem;
+                    font-size: 1rem;
+                }
+            }
+            
+        }
+    
+        .mainContent{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+        }
+
+        .threeCol{
+            .colContent{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                font-size: 1rem;
+
+                h5{
+                    font-size: 20px;
+                    font-weight: 400;
+                    letter-spacing: .5px;
+                }
+
+                p{
+                    letter-spacing: 1px;
+                }
+
+                .col2{
+                    margin: 1rem;
+                }
+
+                img{
+                    max-width: 100%;
+                    height: 200px;                    background-size: cover;
+                    object-fit: cover;
+                }
+
+
+            
+            }
+        }
+
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    .home{
+
+        header{
+            h1{
+                letter-spacing: 2px;
+                font-size: larger;
+            }
+            .content{
+                .cardDiv{
+                    top: 33%;
+                    padding: 2rem;
+                    margin: 1rem;
+                    font-size: 1.3rem;
+                }
+            }
+            
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .home{
+        header{
+            .content{
+                .cardDiv{
+                    top: 44%;
+                }
+            }
+            
+        }
+
+        .mainContent{
+            margin: 3rem;
+
+            .col{
+                padding: .5rem;
+                margin: .5rem;
+            }
+        }
+    
+        .threeCol{
+            .headingCustomize{
+                margin: 3rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .home{
+        header{
+            .content{
+                .cardDiv{
+                    top: 75%;
+                }
+            }
+            
+        }
+    }
+
 }

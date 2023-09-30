@@ -12,6 +12,10 @@
   --card-bg-color: rgb(225, 225, 225);
 }
 
+.home {
+  letter-spacing: 1px;
+}
+
 .home header {
   background: #2b424d;
   overflow: hidden;
@@ -21,10 +25,14 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   opacity: 0.4;
+  max-width: 100%;
+  height: auto;
 }
 
 .home header .content {
@@ -123,5 +131,80 @@
 
 .home .threeCol .col2 p {
   margin-top: .5rem;
+}
+
+@media screen and (min-width: 765px) {
+  .home header .content .cardDiv {
+    top: 25%;
+    padding: 2rem;
+    margin: 1rem;
+    font-size: 1rem;
+  }
+  .home .mainContent {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .home .threeCol .colContent {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    font-size: 1rem;
+  }
+  .home .threeCol .colContent h5 {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: .5px;
+  }
+  .home .threeCol .colContent p {
+    letter-spacing: 1px;
+  }
+  .home .threeCol .colContent .col2 {
+    margin: 1rem;
+  }
+  .home .threeCol .colContent img {
+    max-width: 100%;
+    height: 200px;
+    background-size: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  .home header h1 {
+    letter-spacing: 2px;
+    font-size: larger;
+  }
+  .home header .content .cardDiv {
+    top: 33%;
+    padding: 2rem;
+    margin: 1rem;
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .home header .content .cardDiv {
+    top: 44%;
+  }
+  .home .mainContent {
+    margin: 3rem;
+  }
+  .home .mainContent .col {
+    padding: .5rem;
+    margin: .5rem;
+  }
+  .home .threeCol .headingCustomize {
+    margin: 3rem;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .home header .content .cardDiv {
+    top: 75%;
+  }
 }
 /*# sourceMappingURL=home.css.map */
