@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/new-haven-cleaner-llc/static/css/main.b8208362.css",
+    "main.js": "/new-haven-cleaner-llc/static/js/main.871ddc36.js",
+    "static/media/clean-home.jpeg": "/new-haven-cleaner-llc/static/media/clean-home.003d2239a58f373883dc.jpeg",
+    "static/media/clean-room.jpeg": "/new-haven-cleaner-llc/static/media/clean-room.7394a4881d798af7d124.jpeg",
+    "static/media/office.webp": "/new-haven-cleaner-llc/static/media/office.18670062c708d82910fc.webp",
+    "static/media/Airbnb.jpeg": "/new-haven-cleaner-llc/static/media/Airbnb.ae5b10763007a42d7987.jpeg",
+    "static/media/about.jpeg": "/new-haven-cleaner-llc/static/media/about.666175427449d8db019d.jpeg",
+    "static/media/map.png": "/new-haven-cleaner-llc/static/media/map.c4e3c2f1ee897af45cac.png",
+    "static/media/home.jpeg": "/new-haven-cleaner-llc/static/media/home.71884287ce43a60700f9.jpeg",
+    "static/media/fridgeClean.jpeg": "/new-haven-cleaner-llc/static/media/fridgeClean.97f64578262a2a2bcf16.jpeg",
+    "static/media/post-construction.jpeg": "/new-haven-cleaner-llc/static/media/post-construction.60f718423c7390d5eb95.jpeg",
+    "static/media/apartment.jpeg": "/new-haven-cleaner-llc/static/media/apartment.40940945404f48b3e7ed.jpeg",
+    "static/media/interiorOven.jpeg": "/new-haven-cleaner-llc/static/media/interiorOven.a799f8b7406fc86564f5.jpeg",
+    "static/media/windowClean.jpeg": "/new-haven-cleaner-llc/static/media/windowClean.9f256931c073541b1dbc.jpeg",
+    "index.html": "/new-haven-cleaner-llc/index.html",
+    "main.b8208362.css.map": "/new-haven-cleaner-llc/static/css/main.b8208362.css.map",
+    "main.871ddc36.js.map": "/new-haven-cleaner-llc/static/js/main.871ddc36.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8208362.css",
+    "static/js/main.871ddc36.js"
+  ]
+}
