@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/new-haven-cleaner-llc/static/css/main.b8208362.css",
+    "main.css": "/new-haven-cleaner-llc/static/css/main.9938cf1a.css",
     "main.js": "/new-haven-cleaner-llc/static/js/main.9f3395c7.js",
     "static/media/clean-home.jpeg": "/new-haven-cleaner-llc/static/media/clean-home.003d2239a58f373883dc.jpeg",
     "static/media/clean-room.jpeg": "/new-haven-cleaner-llc/static/media/clean-room.7394a4881d798af7d124.jpeg",
@@ -15,11 +15,11 @@
     "static/media/interiorOven.jpeg": "/new-haven-cleaner-llc/static/media/interiorOven.a799f8b7406fc86564f5.jpeg",
     "static/media/windowClean.jpeg": "/new-haven-cleaner-llc/static/media/windowClean.9f256931c073541b1dbc.jpeg",
     "index.html": "/new-haven-cleaner-llc/index.html",
-    "main.b8208362.css.map": "/new-haven-cleaner-llc/static/css/main.b8208362.css.map",
+    "main.9938cf1a.css.map": "/new-haven-cleaner-llc/static/css/main.9938cf1a.css.map",
     "main.9f3395c7.js.map": "/new-haven-cleaner-llc/static/js/main.9f3395c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8208362.css",
+    "static/css/main.9938cf1a.css",
     "static/js/main.9f3395c7.js"
   ]
 }
