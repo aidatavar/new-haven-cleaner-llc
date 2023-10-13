@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/new-haven-cleaner-llc/static/css/main.9938cf1a.css",
-    "main.js": "/new-haven-cleaner-llc/static/js/main.27528abd.js",
+    "main.css": "/new-haven-cleaner-llc/static/css/main.4a923c1a.css",
+    "main.js": "/new-haven-cleaner-llc/static/js/main.6b9fa01f.js",
     "static/media/clean-home.jpeg": "/new-haven-cleaner-llc/static/media/clean-home.003d2239a58f373883dc.jpeg",
     "static/media/clean-room.jpeg": "/new-haven-cleaner-llc/static/media/clean-room.7394a4881d798af7d124.jpeg",
     "static/media/office.webp": "/new-haven-cleaner-llc/static/media/office.18670062c708d82910fc.webp",
@@ -12,14 +12,15 @@
     "static/media/fridgeClean.jpeg": "/new-haven-cleaner-llc/static/media/fridgeClean.97f64578262a2a2bcf16.jpeg",
     "static/media/post-construction.jpeg": "/new-haven-cleaner-llc/static/media/post-construction.60f718423c7390d5eb95.jpeg",
     "static/media/apartment.jpeg": "/new-haven-cleaner-llc/static/media/apartment.40940945404f48b3e7ed.jpeg",
+    "static/media/book.jpeg": "/new-haven-cleaner-llc/static/media/book.37b65b35bc9297f8c56b.jpeg",
     "static/media/interiorOven.jpeg": "/new-haven-cleaner-llc/static/media/interiorOven.a799f8b7406fc86564f5.jpeg",
     "static/media/windowClean.jpeg": "/new-haven-cleaner-llc/static/media/windowClean.9f256931c073541b1dbc.jpeg",
     "index.html": "/new-haven-cleaner-llc/index.html",
-    "main.9938cf1a.css.map": "/new-haven-cleaner-llc/static/css/main.9938cf1a.css.map",
-    "main.27528abd.js.map": "/new-haven-cleaner-llc/static/js/main.27528abd.js.map"
+    "main.4a923c1a.css.map": "/new-haven-cleaner-llc/static/css/main.4a923c1a.css.map",
+    "main.6b9fa01f.js.map": "/new-haven-cleaner-llc/static/js/main.6b9fa01f.js.map"
   },
   "entrypoints": [
-    "static/css/main.9938cf1a.css",
-    "static/js/main.27528abd.js"
+    "static/css/main.4a923c1a.css",
+    "static/js/main.6b9fa01f.js"
   ]
 }
