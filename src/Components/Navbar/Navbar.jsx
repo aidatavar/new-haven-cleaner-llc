@@ -43,16 +43,12 @@ const Navbar = () => {
                         <Dropdown className='navLink'/>
                     </li>
 
-                    {<li className='navItem'>
-                    <Link to="/Quote" className='navLink'>Estimate</Link>
-                    </li>}
-                    
                     <li className='navItem'>
                         <a href="#" className='navLink'>Contact</a>
                     </li>
 
                     <button className='btn'>
-                        <a href="#">Pay Deposit</a>
+                    <Link to="/Deposit" className='navLink'>Book Service</Link>
                     </button>
                 </ul>
 

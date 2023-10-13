@@ -1,9 +1,16 @@
 import React from 'react'
+import Navbar from '../Components/Navbar/Navbar'
+import Footer from '../Components/Footer/Footer'
+import Deposit from '../Components/Deposit/Deposit'
 
-const Deposit = () => {
+const DepositPage = () => {
   return (
-    <div>Deposit</div>
+    <>
+    <Navbar />
+    <Deposit />
+    <Footer />
+    </>
   )
 }
 
-export default Deposit
+export default DepositPage
