@@ -6,9 +6,6 @@ import { GiVacuumCleaner } from 'react-icons/gi';
 import { AiFillCloseCircle } from 'react-icons/ai';
 import { AiOutlineMenu } from 'react-icons/ai';
 
-
-
-
 const Navbar = () => {
     const [active, setActive] = useState('navBar')
     // function to toggle navBar
@@ -47,7 +44,7 @@ const Navbar = () => {
                     </li>
 
                     {<li className='navItem'>
-                        <a href="#" className='navLink'>Quote</a>
+                    <Link to="/Quote" className='navLink'>Estimate</Link>
                     </li>}
                     
                     <li className='navItem'>
