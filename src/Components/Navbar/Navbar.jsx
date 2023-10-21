@@ -44,11 +44,11 @@ const Navbar = () => {
                     </li>
 
                     <li className='navItem'>
-                        <a href="#" className='navLink'>Contact</a>
+                    <Link to="/Contact" className='navLink'>Contact</Link>
                     </li>
 
                     <button className='btn'>
-                    <Link to="/Deposit" className='navLink'>Book Service</Link>
+                    <Link to="/Book" className='navLink'>Book Service</Link>
                     </button>
                 </ul>
 

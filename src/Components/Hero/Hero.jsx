@@ -6,6 +6,8 @@ import {FiFacebook} from 'react-icons/fi'
 import {BsInstagram} from 'react-icons/bs'
 import {AiTwotoneMail} from 'react-icons/ai'
 import {AiOutlinePhone} from 'react-icons/ai'
+import { Link } from 'react-router-dom';
+
 
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -50,7 +52,7 @@ const Home = () => {
             </div>
 
             <button className='btn'>
-              <a href="#">START BOOKING</a>
+              <Link to="/Book">START BOOKING</Link>
               </button>
       </div>
 
