@@ -14,10 +14,13 @@ const Contact = () => {
           .then((result) => {
               console.log(result.text);
               console.log("message sent")
+              window.location.reload(false)
           }, (error) => {
               console.log(error.text);
+              alert('Failed to send message, please try again');
           });
       };
+
     
       return (
         <section className='contact'>
@@ -25,12 +28,12 @@ const Contact = () => {
 
         <form ref={form} onSubmit={sendEmail}>
           <label>Name</label>
-          <input type="text"  name="to_name" id="to_name"/>
+          <input type="text"  name="to_name" id="to_name" required/>
           <label>Email</label>
-          <input type="email" name="from_name" id="from_name"/>
+          <input type="email" name="from_name" id="from_name" required/>
           <label>Message</label>
-          <textarea name="message" id="message" />
-          <input type="submit" value="Send" />
+          <textarea name="message" id="message" required/>
+          <input type="submit" value="Send"/>
         </form>
         </section>
       );
