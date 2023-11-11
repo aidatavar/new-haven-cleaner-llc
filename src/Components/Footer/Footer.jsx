@@ -45,7 +45,7 @@ const Footer = () => {
 
              <div className="footerParagraph">
                <p>
-                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas a harum officiis sapiente illo quod debitis officia totam blanditiis?
+          Experience cleanliness redefined with our expert touch. Elevate your space today!
                </p>
              </div>
 

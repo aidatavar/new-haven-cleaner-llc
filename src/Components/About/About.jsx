@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import image from '../../Assets/about.jpeg'
+import image from '../../Assets/house-cleaning-service.jpeg'
 
 const About = () => {
   return (
@@ -14,7 +14,7 @@ const About = () => {
       <div className="aboutContent">
         <h2 >About Us</h2>
         <div className="textDiv">
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit eos totam nisi, nulla fuga doloremque numquam debitis veritatis vel officiis commodi sit repellat exercitationem corrupti quae? Officia maxime aliquam eum!</p>
+          <p>Welcome to New Haven Cleaners LLC your space, our expertise. With a commitment to excellence, we turn spaces into pristine sanctuaries. Our reliable team prioritizes punctuality, environmental responsibility, and, above all, your satisfaction. Let us handle the cleaning, so you can focus on what matters most. Trust New Haven Cleaners LLC for a spotless, stress-free environment.</p>
         </div>
       </div>
       </div>

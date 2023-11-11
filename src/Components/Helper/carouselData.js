@@ -8,31 +8,31 @@ import { Link } from 'react-router-dom';
 export const images = [
     {
         title: "Home",
-        paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas a harum officiis sapiente illo quod debitis officia totam blanditiis",
+        paragraph: "Leave the cleaning to us while you create lasting memories. Our home cleaning services guarantee a fresh, spotless, and sparkling-clean living space.",
         button: <Link to="/Home">Learn More</Link>,
         img: image1
     },
     {
         title: "Apartment",
-        paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas a harum officiis sapiente illo quod debitis officia totam blanditiis",
+        paragraph: "Transform your apartment with our deep cleaning services! Move-in ready, we ensure a fresh, inviting space. Let us handle the cleaning, so you can enjoy your new home to the fullest.",
         button: <Link to="/Apartment">Learn more</Link>,
         img: image2
     },
     {
         title: "Airbnb",
-        paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas a harum officiis sapiente illo quod debitis officia totam blanditiis",
+        paragraph: "Elevate your Airbnb with our meticulous cleaning for seamless check-ins and a standout guest experience. Trust us to make your space welcoming effortlessly.",
         button: <Link to="/Airbnb">Learn more</Link>,
         img: image3
     },
     {
         title: "Office",
-        paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas a harum officiis sapiente illo quod debitis officia totam blanditiis",
+        paragraph: "Elevate your office with our professional cleaning services. We create a clean, organized workspace for a productive atmosphere. Focus on your business—let us handle the cleaning.",
         button: <Link to="/Office">Learn more</Link>,
         img: image4
     },
     {
         title: "Post-construction",
-        paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas a harum officiis sapiente illo quod debitis officia totam blanditiis",
+        paragraph: "Let our team make your space shine! Our deep cleaning services ensure your home or project is move-in or staging ready, radiating cleanliness and freshness.",
         button: <Link to="/Post-construction">Learn more</Link>,
         img: image5
     },
