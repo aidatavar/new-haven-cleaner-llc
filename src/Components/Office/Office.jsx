@@ -18,59 +18,45 @@ const Office = () => {
 
     <section className='two-col'>
       <div className='mainHeader'>
-        <h2>Premium office clean</h2>
-        <p>Weekly, Biweekly, Monthly or One-Time Cleaning Visits Available</p>
+        <h2>Our skilled team is committed to fulfilling your tailored task list with each visit. At New Haven Cleaners LLC, we prioritize delivering a stress-free experience. Our dependable and friendly staff is available for daily, weekly, biweekly, or monthly cleaning, based on your preferences.</h2>
+        <p>Upon submitting a quote request, we will contact you to perform a walk-through of your space. The walk-through will help us customize your cleaning tasks to suit your office needs.</p>
       </div>
       <div className='mainContent'>
         <div className='col'>
           <div className='paragraph'>
-            <h3>KITCHEN</h3>
-            <p>Sanitize countertops, sink and backsplash
-              Wash exterior of appliances and interior microwave
-              Wash any dirty dishes</p>
-            <p>Wipe down table legs, chairs, barstools
-              Wipe down cabinet exterior
-              Wash under sink by garbage
-            </p>
-          </div>
-          <div className='paragraph'>
-            <h3>BATHROOM</h3>
-            <p>Wipe-wash-polish sinks, tub/shower
-              Wipe-wash-polish toilets, base and bowl
-              Clean mirrors</p>
-            <p>Wipe down cabinet exterior
-              Polish all chrome surfaces
-              Wipe down baseboards
-            </p>
+            <h3>COMMON TASKS COMPLETED:</h3>
+            <p>Dust & wipe down all surfaces throughout building (inc. entrances, offices & all other areas)
+            Clean & disinfect all staff & client bathrooms
+            Disinfect & clean kitchen, if applicable
+            Sweep, vacuum & wash floors throughout the building
+            Spot wash any noticeable mess on walls, doors etc.
+            Windex any fingerprints on windows/doors
+            Plus any other essentials we feel are necessary to make your offices shine.
+            The cleaning task list will be customized to your space.</p>
+          
           </div>
         </div>
 
         <div className='col'>
           <div className='paragraph'>
-            <h3>BEDROOMS</h3>
-            <p>Quick tidy and pick up
-              Dust all surfaces throughout office
-              Make beds
+            <h3>DEEP CLEANING TASKS:</h3>
+            <p>Clean interior windows (remove window stickers)
+              Carpet cleaning, available by request
+              Wipe down computer chairs/desk legs
+              Deep Kitchen clean
+              Baseboards/casings & doors
             </p>
-          </div>
-          <div className='paragraph'>
-            <h3>ENTIRE OFFICE</h3>
-            <p>Quick tidy and pick up
-              Dust all surfaces throughout office
-            </p>
-            <p>Wet wipe all surfaces throughout office
-              Sanitize door knobs and light switches
-              Empty All Garbages
-              Sweep/Vacuum and Wash All Floors</p>
-          </div>
-          <div className='paragraph'>
-            <h3>PLUS:</h3>
-            <p>Wipe down windowsills
-              Spot wash interior windows</p>
           </div>
         </div>
       </div>
     </section>
+
+    <div className='quote '>
+      <h3>Let our certified staff sweat the details so you don’t have to.</h3>
+
+      <button className='btn'>GET A QUOTE</button>
+
+    </div>
 
   </section>
 

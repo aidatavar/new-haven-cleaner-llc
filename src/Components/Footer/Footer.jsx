@@ -7,8 +7,9 @@ import { AiOutlineTwitter } from 'react-icons/ai';
 import { FaTiktok } from 'react-icons/fa';
 import {BiLogoFacebook} from 'react-icons/bi'
 import {AiFillInstagram} from 'react-icons/ai'
-import {FiChevronRight} from 'react-icons/fi'
-
+import {FaLocationDot} from 'react-icons/fa6'
+import {BsFillTelephoneFill} from 'react-icons/bs'
+import {MdEmail} from 'react-icons/md'
 
 
 
@@ -43,12 +44,6 @@ const Footer = () => {
                </a>
              </div>
 
-             <div className="footerParagraph">
-               <p>
-          Experience cleanliness redefined with our expert touch. Elevate your space today!
-               </p>
-             </div>
-
              <div className='footerSocials flex'>
              <AiOutlineTwitter className='icon' /> 
              <FaTiktok className='icon' />
@@ -61,18 +56,10 @@ const Footer = () => {
              {/* Group One */}
              <div className="linkGroup">
                <span className='groupTitle'>
-                 OUR COMPANY
+                 ABOUT THE COMPANY
                </span>
 
-               <li className="footerList flex">
-                 <FiChevronRight className="icon"/> Services
-               </li>
-               <li className="footerList flex">
-                 <FiChevronRight className="icon"/> Mission
-               </li>
-               <li className="footerList flex">
-                 <FiChevronRight className="icon"/>Payments
-               </li>
+               <p>Discover the joy of a spotless space with New Haven Cleaners LLC. Elevate your environment with our expert cleaning services – where excellence meets cleanliness. Experience the difference today!</p>
              </div>
              
             {/* Group two */}
@@ -82,13 +69,13 @@ const Footer = () => {
                </span>
 
                <li className="footerList flex">
-                 <FiChevronRight className="icon"/> About
+                 <FaLocationDot className="icon"/> 51 E Pearl st New Haven, CT 
                </li>
                <li className="footerList flex">
-                 <FiChevronRight className="icon"/> Booking
+                 <BsFillTelephoneFill className="icon"/>(475) 224-1897
                </li>
                <li className="footerList flex">
-                 <FiChevronRight className="icon"/> Deposit
+                 <MdEmail className="icon"/> info@newhavencleaners.com
                </li>
              </div>
            </div>
