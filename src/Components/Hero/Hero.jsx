@@ -1,7 +1,6 @@
 import React, {useEffect} from 'react'
 import './hero.css'
 import image from '../../Assets/clean-home.jpeg'
-import {GrLocation} from 'react-icons/gr'
 import {FiFacebook} from 'react-icons/fi'
 import {BsInstagram} from 'react-icons/bs'
 import {AiTwotoneMail} from 'react-icons/ai'
@@ -36,24 +35,21 @@ const Home = () => {
       </div>
 
       <div data-aos="fade-up" className='cardDiv grid'>
-            <div className="destinationInput">
-              <label htmlFor="city">Search your city:</label>
-              <div className='input flex'>
-                <input type="text" placeholder='Enter your city here...' />
-                <GrLocation className='icon'/>
-              </div>
+            <div className="estimate">
+            <label htmlFor="city">Get started with your free estimate</label>
+            <button className='btn'>
+              <Link to="/Book">ESTIMATE</Link>
+              </button>
             </div>
-
-            <div className="dateInput">
-              <label htmlFor="city">Select your date:</label>
-              <div className='input flex'>
-                <input type="date" />
-              </div>
-            </div>
-
+              <div className='vertical-line'></div>
+            <div className="book">
+              <label htmlFor="city">Book with us</label>
+              
             <button className='btn'>
               <Link to="/Book">START BOOKING</Link>
               </button>
+            </div>
+
       </div>
 
     <div data-aos="fade-up" className='heroFooterIcons flex'>

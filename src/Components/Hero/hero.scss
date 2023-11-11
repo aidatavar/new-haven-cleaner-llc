@@ -74,6 +74,8 @@
             background: var(--white-color);
             border-radius: 10px;
             gap: 1rem;
+            justify-content: center;
+            text-align: center;
 
             label{
                 display: block;
@@ -83,42 +85,17 @@
                 font-weight: 500;
             }
 
-            .input{
-                height: 40px;
-                padding: 0 1rem;
-                background: var(--input-color);
-                border-radius: 3rem;
 
-                input{
-                    background: none;
-                    border: none;
-                    outline: none;
-                    width: 100%;
-                    font-size: 13px;
-                    font-weight: 500;
-                    &::placeholder{
-                        font-size: 13px;
-                    }
-                }
-
-                .icon{
-                    font-size: 18px;
-                    color: var(--primary-color)
-                    !important;
-                    margin-left: 10px;
-                }
-            }
-
-            .btn{
-                position: absolute;
-                width: max-content;
-                bottom: -0.7rem;
-                column-gap: .8rem;
-                left: 50%;
-                transform: translate(-50%);
-                justify-content: center;
+            // .btn{
+            //     position: absolute;
+            //     width: max-content;
+            //     bottom: -0.7rem;
+            //     column-gap: .8rem;
+            //     left: 50%;
+            //     transform: translate(-50%);
+            //     justify-content: center;
                 
-            }
+            // }
         }
 
         .heroFooterIcons{
@@ -169,6 +146,16 @@
 
             .cardDiv{
                 grid-template-columns: repeat(2, 1fr);
+
+
+            .vertical-line{
+                border-left: 2px solid var(--secondary-color);
+                height: 100px;
+                position: absolute;
+                left: 50%;
+          
+            }
+
             }
         }
     }
@@ -180,6 +167,15 @@
             .cardDiv{
                 padding: 2rem 1rem;
                 grid-template-columns: repeat(2,1fr);
+
+            .vertical-line{
+                border-left: 2px solid var(--secondary-color);
+                height: 100px;
+                position: absolute;
+                left: 50%;
+          
+            }
+
             }
         }
     }

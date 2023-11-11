@@ -93,6 +93,10 @@
   background: var(--white-color);
   border-radius: 10px;
   gap: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
 }
 
 .hero .heroContent .cardDiv label {
@@ -101,60 +105,6 @@
   padding-bottom: 10px;
   font-size: 13px;
   font-weight: 500;
-}
-
-.hero .heroContent .cardDiv .input {
-  height: 40px;
-  padding: 0 1rem;
-  background: var(--input-color);
-  border-radius: 3rem;
-}
-
-.hero .heroContent .cardDiv .input input {
-  background: none;
-  border: none;
-  outline: none;
-  width: 100%;
-  font-size: 13px;
-  font-weight: 500;
-}
-
-.hero .heroContent .cardDiv .input input::-webkit-input-placeholder {
-  font-size: 13px;
-}
-
-.hero .heroContent .cardDiv .input input:-ms-input-placeholder {
-  font-size: 13px;
-}
-
-.hero .heroContent .cardDiv .input input::-ms-input-placeholder {
-  font-size: 13px;
-}
-
-.hero .heroContent .cardDiv .input input::placeholder {
-  font-size: 13px;
-}
-
-.hero .heroContent .cardDiv .input .icon {
-  font-size: 18px;
-  color: var(--primary-color) !important;
-  margin-left: 10px;
-}
-
-.hero .heroContent .cardDiv .btn {
-  position: absolute;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-  bottom: -0.7rem;
-  -webkit-column-gap: .8rem;
-          column-gap: .8rem;
-  left: 50%;
-  -webkit-transform: translate(-50%);
-          transform: translate(-50%);
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .hero .heroContent .heroFooterIcons {
@@ -200,6 +150,12 @@
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
   }
+  .hero .heroContent .cardDiv .vertical-line {
+    border-left: 2px solid var(--secondary-color);
+    height: 100px;
+    position: absolute;
+    left: 50%;
+  }
 }
 
 @media screen and (min-width: 660px) {
@@ -207,6 +163,12 @@
     padding: 2rem 1rem;
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
+  }
+  .hero .heroContent .cardDiv .vertical-line {
+    border-left: 2px solid var(--secondary-color);
+    height: 100px;
+    position: absolute;
+    left: 50%;
   }
 }
 
