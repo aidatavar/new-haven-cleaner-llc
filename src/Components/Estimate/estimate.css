@@ -1,0 +1,143 @@
+:root {
+  --primary-color: hsl(199, 100%, 33%);
+  --secondary-color: hsl(187, 85%, 43%);
+  --gradient-color: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 100%, 33%));
+  --white-color: hsl(0, 0%, 100%);
+  --black-color: hsl(201, 33%, 16%);
+  --text-color: hsl(240, 4%, 36%);
+  --white-color-cream: hsl(0, 0%, 93%);
+  --grey-text: rgb(190, 190, 190);
+  --input-color: rgb(239, 239, 239);
+  --body-color: rgb(240, 240, 240);
+  --card-bg-color: rgb(225, 225, 225);
+}
+
+:root {
+  --primary-color: hsl(199, 100%, 33%);
+  --secondary-color: hsl(187, 85%, 43%);
+  --gradient-color: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 100%, 33%));
+  --white-color: hsl(0, 0%, 100%);
+  --black-color: hsl(201, 33%, 16%);
+  --text-color: hsl(240, 4%, 36%);
+  --white-color-cream: hsl(0, 0%, 93%);
+  --grey-text: rgb(190, 190, 190);
+  --input-color: rgb(239, 239, 239);
+  --body-color: rgb(240, 240, 240);
+  --card-bg-color: rgb(225, 225, 225);
+}
+
+.estimate h1 {
+  text-align: center;
+}
+
+.estimate header {
+  background: #2b424d;
+  overflow: hidden;
+}
+
+.estimate header img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 0.4;
+  max-width: 100%;
+  height: auto;
+}
+
+.estimate header .content {
+  text-align: center;
+}
+
+.estimate header .content .cardDiv {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: rgba(241, 246, 247, 0.893);
+  border-radius: 1rem;
+  font-size: .6rem;
+  padding-top: 1.5rem;
+}
+
+.estimate header .content .cardDiv h1 {
+  text-transform: uppercase;
+}
+
+.estimate header .content .cardDiv p {
+  color: var(--text-color);
+}
+
+.estimate .form {
+  padding: 2rem;
+}
+
+.estimate .form form {
+  position: relative;
+  padding: 1rem 1rem 4rem;
+  gap: 2rem;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  overflow: hidden;
+  background: var(--white-color);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.estimate .form form input {
+  width: 100%;
+  height: 35px;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+  background-color: #dfdfdf;
+}
+
+.estimate .form form input:focus {
+  border: 2px solid var(--secondary-color);
+}
+
+.estimate .form form textarea {
+  max-width: 100%;
+  min-width: 100%;
+  width: 100%;
+  max-height: 100px;
+  min-height: 100px;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+  background-color: #dfdfdf;
+}
+
+.estimate .form form textarea:focus {
+  border: 2px solid var(--secondary-color);
+}
+
+.estimate .form form label {
+  margin-top: 1rem;
+}
+
+.estimate .form form input[type="submit"] {
+  margin-top: 2rem;
+  cursor: pointer;
+  background: var(--gradient-color);
+  color: white;
+  border: none;
+}
+/*# sourceMappingURL=estimate.css.map */

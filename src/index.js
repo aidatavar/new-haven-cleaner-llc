@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM  from "react-dom/client";
 import App from './App';
-import Deposit from "./Routes/DepositPage"
+import Estimate from "./Routes/estimatePage";
 import HomePage from "./Routes/Services/HomePage";
 import ApartmentPage from "./Routes/Services/ApartmentPage";
 import AirBnbPage from "./Routes/Services/AirBnbPage";
@@ -17,8 +17,8 @@ root.render(
     <BrowserRouter basename={process.env.PUBLIC_URL}>
        <Routes>
            <Route path="/" element={<App />}/>
-           <Route path="/Book" element={<Deposit />}/>
            <Route path="/Home" element={<HomePage />}/>
+           <Route path="/Estimate" element={<Estimate />}/>
            <Route path="/Contact" element={<ContactPage />}/>
            <Route path="/Apartment" element={<ApartmentPage />}/>
            <Route path="/Airbnb" element={<AirBnbPage />}/>
