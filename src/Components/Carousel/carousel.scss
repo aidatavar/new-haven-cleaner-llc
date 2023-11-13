@@ -18,7 +18,6 @@
     height: 500px;
     justify-content: center;
     margin-bottom: 3rem;
-
     
     .carouselInner{
         height: 100%;
@@ -48,14 +47,17 @@
             height: 100%;
             display: grid;
             place-items: center;
-            text-align: justify;
-            text-align-last: center;
+            text-align: center;
             color: var(--text-color);
 
                 .cardDiv{
                     background: white;
-                    padding: 2rem;
+                    padding: 1.5rem;
                     border-radius: 1rem;
+
+                    p{
+                        letter-spacing: 0;
+                    }
                     
                 }
 

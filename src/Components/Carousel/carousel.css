@@ -58,15 +58,18 @@
   display: -ms-grid;
   display: grid;
   place-items: center;
-  text-align: justify;
-  text-align-last: center;
+  text-align: center;
   color: var(--text-color);
 }
 
 .carousel .carouselInner .spaceBetween .center .cardDiv {
   background: white;
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 1rem;
+}
+
+.carousel .carouselInner .spaceBetween .center .cardDiv p {
+  letter-spacing: 0;
 }
 
 .carousel .carouselInner .spaceBetween .center .btn {
