@@ -166,6 +166,8 @@
                 justify-content: space-between;
 
                 .linkGroup{
+                    padding: 1rem;
+
                     .groupTitle{
                         display: block;
                         font-weight: 600;
@@ -177,11 +179,16 @@
                         font-size: 15px;
                         color: var(--text-color);
                         transition: .3s ease-in-out;
+                        
 
                         .icon{
                             font-size: 15px;
                             color: var(--grey-text);
-    
+                            
+                        }
+
+                        span{
+                            padding: .5rem .5rem;
                         }
 
                         &:hover{
@@ -215,6 +222,21 @@
                     color: var(--white-color);
                 }
             }
+        }
+    }
+}
+
+
+@media screen and (min-width: 600px) {
+    .footer{
+        .setContent{
+            .footerCard{
+                .footerLinks{
+                    display: grid;
+
+                }
+            }
+            
         }
     }
 }

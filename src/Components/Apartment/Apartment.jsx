@@ -4,6 +4,8 @@ import image1 from '../../Assets/apartment.jpeg'
 import image2 from '../../Assets/fridgeClean.jpeg'
 import image3 from '../../Assets/interiorOven.jpeg'
 import image4 from '../../Assets/windowClean.jpeg'
+import { Link } from 'react-router-dom'
+
 
 const Apartment = () => {
   return (
@@ -179,6 +181,23 @@ const Apartment = () => {
         </div>
       </div>
     </section>
+
+    <div className="content">
+        <h3>GOOD THINGS TO KNOW:</h3>
+        <p>Reliable and friendly staff <br />
+    No contract required <br />
+    Easy payment options! cash or cheque <br />
+    We can provide the supplies and equipment or you can! Up to you!</p>
+    </div>
+
+    <div className='quote '>
+      <h4>Let our certified staff sweat the details so you don’t have to.</h4>
+
+      <button className='btn'>
+      <Link to="/Estimate">GET AN ESTIMATE</Link>
+      </button>
+
+    </div>
 
   </section>
   )

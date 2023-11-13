@@ -133,6 +133,26 @@
   margin-top: .5rem;
 }
 
+.home .content {
+  text-align: center;
+  font-size: .8rem;
+}
+
+.home .content h3 {
+  margin: 2rem;
+  font-weight: 500;
+}
+
+.home .quote {
+  text-align: center;
+  margin: 2rem;
+}
+
+.home .quote .btn {
+  color: var(--white-color);
+  margin: 1rem;
+}
+
 @media screen and (min-width: 765px) {
   .home header .content .cardDiv {
     top: 25%;

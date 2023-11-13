@@ -1,6 +1,7 @@
 import React from 'react'
 import './office.css'
 import image1 from '../../Assets/office.webp'
+import { Link } from 'react-router-dom'
 
 
 const Office = () => {
@@ -50,11 +51,21 @@ const Office = () => {
         </div>
       </div>
     </section>
-
+    
+    <div className="content">
+        <h3>GOOD THINGS TO KNOW:</h3>
+        <p>Reliable and friendly staff <br />
+    No contract required <br />
+    Easy payment options! cash or cheque <br />
+    We can provide the supplies and equipment or you can! Up to you!</p>
+    </div>
+    
     <div className='quote '>
       <h3>Let our certified staff sweat the details so you don’t have to.</h3>
 
-      <button className='btn'>GET A QUOTE</button>
+      <button className='btn'>
+      <Link to="/Estimate">GET AN ESTIMATE</Link>
+      </button>
 
     </div>
 

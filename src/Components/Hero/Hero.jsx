@@ -41,12 +41,12 @@ const Home = () => {
               <Link to="/Book">ESTIMATE</Link>
               </button>
             </div>
-              <hr />
+            <div className="vertical-line"></div>
             <div className="book">
               <h3 >Book with us</h3>
               
             <button className='btn'>
-              <a href='https://nehavencleaners.simplybook.me/v2/#' target="_blank" rel="noopener noreferrer">START BOOKING</a>
+              <a href='https://nehavencleaners.simplybook.me/v2/#' target="_blank">START BOOKING</a>
               </button>
             </div>
 

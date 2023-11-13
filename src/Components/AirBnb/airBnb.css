@@ -93,6 +93,26 @@
   color: var(--text-color);
 }
 
+.airbnb .content {
+  text-align: center;
+  font-size: .8rem;
+}
+
+.airbnb .content h3 {
+  margin: 2rem;
+  font-weight: 500;
+}
+
+.airbnb .quote {
+  text-align: center;
+  margin: 2rem;
+}
+
+.airbnb .quote .btn {
+  color: var(--white-color);
+  margin: 1rem;
+}
+
 @media screen and (min-width: 765px) {
   .airbnb header .content .cardDiv {
     top: 25%;

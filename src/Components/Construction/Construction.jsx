@@ -1,6 +1,8 @@
 import React from 'react'
 import './Construction.css'
 import image1 from '../../Assets/post-construction.jpeg'
+import { Link } from 'react-router-dom'
+
 
 const Construction = () => {
   return (
@@ -41,9 +43,19 @@ const Construction = () => {
         <h3>GOOD THINGS TO KNOW:</h3>
         <p>Reliable and friendly staff <br />
     No contract required <br />
-    Easy payment options! credit card (auto-charge available), cash or cheque <br />
+    Easy payment options! cash or cheque <br />
     We can provide the supplies and equipment or you can! Up to you!</p>
     </div>
+
+    <div className='quote '>
+      <h4>Let our certified staff sweat the details so you don’t have to.</h4>
+
+      <button className='btn'>
+      <Link to="/Estimate">GET AN ESTIMATE</Link>
+      </button>
+
+    </div>
+
     </section>
   )
 }

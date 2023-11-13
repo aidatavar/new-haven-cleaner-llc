@@ -13,6 +13,7 @@ const Map = () => {
       <div className="listDiv">
           <div className="list">
           <ul>
+            <li>New Haven</li>
             <li>East Haven</li>
             <li>West Haven</li>
             <li>Branford</li>
@@ -23,6 +24,7 @@ const Map = () => {
             <li>Westbrook</li>
             <li>Stratford</li>
             <li>Fairfield </li>
+            <li>Waterbury</li>
         </ul>
           </div>
         
@@ -38,7 +40,9 @@ const Map = () => {
             <li>Derby</li>
             <li>Woodbridge</li>
             <li>Trumbull</li>
+            <li>Easton</li>
             <li>Surrounding Areas</li>
+
         </ul>
           </div>
       </div>

@@ -44,7 +44,7 @@ const Footer = () => {
                </a>
              </div>
 
-             <div className='footerSocials flex'>
+             <div className='footerSocials flex\'>
              <AiOutlineTwitter className='icon' /> 
              <FaTiktok className='icon' />
              <BiLogoFacebook className='icon' />
@@ -52,7 +52,7 @@ const Footer = () => {
              </div>
            </div>
 
-           <div className="footerLinks grid">
+           <div className="footerLinks">
              {/* Group One */}
              <div className="linkGroup">
                <span className='groupTitle'>
@@ -69,13 +69,10 @@ const Footer = () => {
                </span>
 
                <li className="footerList flex">
-                 <FaLocationDot className="icon"/> 51 E Pearl st New Haven, CT 
+                 <BsFillTelephoneFill className="icon"/><span>(475) 224-1897</span>
                </li>
                <li className="footerList flex">
-                 <BsFillTelephoneFill className="icon"/>(475) 224-1897
-               </li>
-               <li className="footerList flex">
-                 <MdEmail className="icon"/> info@newhavencleaners.com
+                 <MdEmail className="icon"/> <span>info@newhavencleaners.com</span>
                </li>
              </div>
            </div>

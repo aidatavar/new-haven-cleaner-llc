@@ -59,7 +59,6 @@
 }
 
 .construction .content {
-  margin: 2rem;
   text-align: center;
   font-size: .8rem;
 }
@@ -67,6 +66,16 @@
 .construction .content h3 {
   margin: 2rem;
   font-weight: 500;
+}
+
+.construction .quote {
+  text-align: center;
+  margin: 2rem;
+}
+
+.construction .quote .btn {
+  color: var(--white-color);
+  margin: 1rem;
 }
 
 @media screen and (min-width: 370px) {

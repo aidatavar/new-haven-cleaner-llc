@@ -133,6 +133,26 @@
   margin-top: .5rem;
 }
 
+.apartment .content {
+  text-align: center;
+  font-size: .8rem;
+}
+
+.apartment .content h3 {
+  margin: 2rem;
+  font-weight: 500;
+}
+
+.apartment .quote {
+  text-align: center;
+  margin: 2rem;
+}
+
+.apartment .quote .btn {
+  color: var(--white-color);
+  margin: 1rem;
+}
+
 @media screen and (min-width: 765px) {
   .apartment header .content .cardDiv {
     top: 25%;

@@ -225,6 +225,10 @@
           justify-content: space-between;
 }
 
+.footer .setContent .footerCard .footerLinks .linkGroup {
+  padding: 1rem;
+}
+
 .footer .setContent .footerCard .footerLinks .linkGroup .groupTitle {
   display: block;
   font-weight: 600;
@@ -242,6 +246,10 @@
 .footer .setContent .footerCard .footerLinks .linkGroup .footerList .icon {
   font-size: 15px;
   color: var(--grey-text);
+}
+
+.footer .setContent .footerCard .footerLinks .linkGroup .footerList span {
+  padding: .5rem .5rem;
 }
 
 .footer .setContent .footerCard .footerLinks .linkGroup .footerList:hover {
@@ -270,5 +278,12 @@
 .footer .setContent .footerCard .footerDiv small {
   font-size: 10px;
   color: var(--white-color);
+}
+
+@media screen and (min-width: 600px) {
+  .footer .setContent .footerCard .footerLinks {
+    display: -ms-grid;
+    display: grid;
+  }
 }
 /*# sourceMappingURL=footer.css.map */

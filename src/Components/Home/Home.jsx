@@ -3,6 +3,7 @@ import image1 from '../../Assets/home.jpeg'
 import image2 from '../../Assets/fridgeClean.jpeg'
 import image3 from '../../Assets/interiorOven.jpeg'
 import image4 from '../../Assets/windowClean.jpeg'
+import { Link } from 'react-router-dom'
 import './home.scss'
 
 const Home = () => {
@@ -179,6 +180,24 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      <div className="content">
+        <h3>GOOD THINGS TO KNOW:</h3>
+        <p>Reliable and friendly staff <br />
+    No contract required <br />
+    Easy payment options! cash or cheque <br />
+    We can provide the supplies and equipment or you can! Up to you!</p>
+    </div>
+
+
+      <div className='quote '>
+      <h3>Let our certified staff sweat the details so you don’t have to.</h3>
+
+      <button className='btn'>
+      <Link to="/Estimate">GET AN ESTIMATE</Link>
+      </button>
+
+    </div>
 
     </section>
 
