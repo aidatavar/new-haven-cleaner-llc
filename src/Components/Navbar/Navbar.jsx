@@ -48,7 +48,11 @@ const Navbar = () => {
                     </li>
 
                     <button className='btn'>
-                    <Link to="/Book" className='navLink'>Book Service</Link>
+                    <Link to="/Book">ESTIMATE</Link>
+                    </button>
+
+                    <button className='btn'>
+                    <a href='https://nehavencleaners.simplybook.me/v2/#' target="_blank" rel="noopener noreferrer">Book</a>
                     </button>
                 </ul>
 

@@ -36,17 +36,17 @@ const Home = () => {
 
       <div data-aos="fade-up" className='cardDiv grid'>
             <div className="estimate">
-            <label htmlFor="city">Get started with your free estimate</label>
+            <h3>Get started with your free estimate</h3>
             <button className='btn'>
               <Link to="/Book">ESTIMATE</Link>
               </button>
             </div>
-              <div className='vertical-line'></div>
+              <hr />
             <div className="book">
-              <label htmlFor="city">Book with us</label>
+              <h3 >Book with us</h3>
               
             <button className='btn'>
-              <Link to="/Book">START BOOKING</Link>
+              <a href='https://nehavencleaners.simplybook.me/v2/#' target="_blank" rel="noopener noreferrer">START BOOKING</a>
               </button>
             </div>
 
