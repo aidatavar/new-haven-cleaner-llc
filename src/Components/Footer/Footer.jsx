@@ -1,13 +1,12 @@
 import React from 'react'
 import './footer.css'
 import image from '../../Assets/clean-room.jpeg'
+import logo from '../../Assets/logo.png'
 import { FiSend } from 'react-icons/fi'
-import { GiVacuumCleaner } from 'react-icons/gi';
 import { AiOutlineTwitter } from 'react-icons/ai';
 import { FaTiktok } from 'react-icons/fa';
 import {BiLogoFacebook} from 'react-icons/bi'
 import {AiFillInstagram} from 'react-icons/ai'
-import {FaLocationDot} from 'react-icons/fa6'
 import {BsFillTelephoneFill} from 'react-icons/bs'
 import {MdEmail} from 'react-icons/md'
 
@@ -21,26 +20,13 @@ const Footer = () => {
       </div>
 
       <div className="setContent container">
-         <div className="contactDiv flex">
-           <div className='text'>
-             <small>KEEP IN TOUCH</small>
-             <h2>Contact us</h2>
-           </div>
-
-           <div className="inputDiv flex">
-             <input type="text" placeholder='Enter email address'/>
-             <button className='btn flex' type='submit'>
-               SEND
-               <FiSend className="icon"/>
-             </button>
-           </div>
-         </div>
 
          <div className="footerCard flex">
            <div className="footerIntro flex">
              <div className="logoDiv">
                <a href="#" className='logo flex'>
-                 <GiVacuumCleaner className='icon' /> New Haven Cleaners LLC
+                 <img src={logo} alt="logo" />
+                  New Haven Cleaners LLC
                </a>
              </div>
 

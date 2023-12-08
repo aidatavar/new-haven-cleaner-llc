@@ -50,7 +50,7 @@ const Navbar = () => {
                     </li>
 
                     <button className='btn'>
-                    <Link to="/Estimate">ESTIMATE</Link>
+                    <Link to="/Estimate">Estimate</Link>
                     </button>
 
                     <button className='btn'>

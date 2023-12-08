@@ -131,10 +131,10 @@
                     color: var(--black-color);
                     font-weight: 600;
 
-                    .icon{
-                        font-size: 25px;
-                        color: var(--primary-color);
-                        margin-right: 10px;
+                    img{
+                        height: 3rem;
+                        width: auto;
+                        margin: .5rem;
                     }
                 }
             }

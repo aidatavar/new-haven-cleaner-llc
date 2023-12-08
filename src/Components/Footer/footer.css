@@ -188,10 +188,10 @@
   font-weight: 600;
 }
 
-.footer .setContent .footerCard .logoDiv .logo .icon {
-  font-size: 25px;
-  color: var(--primary-color);
-  margin-right: 10px;
+.footer .setContent .footerCard .logoDiv .logo img {
+  height: 3rem;
+  width: auto;
+  margin: .5rem;
 }
 
 .footer .setContent .footerCard .footerParagraph {
