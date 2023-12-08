@@ -31,22 +31,21 @@
           box-shadow: 0 2px 4px rgba(2, 15, 29, 0.242);
 }
 
-.header .logo {
+.header .logoDiv h1 {
   color: var(--black-color);
-  font-weight: 600;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-size: medium;
 }
 
-.header .logo .icon {
-  font-size: 25px;
-  color: var(--primary-color);
-  -webkit-transform: translateY(5px);
-          transform: translateY(5px);
+.header .logoDiv img {
+  height: 3rem;
+  width: auto;
+  margin: .5rem;
 }
 
 @media screen and (max-width: 768px) {

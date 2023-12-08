@@ -23,19 +23,24 @@
     z-index: 1000;
     box-shadow: 0 2px 4px rgba(2, 15, 29, 0.242);
 
-
-    .logo{
-        color: var(--black-color);
-        font-weight: 600;
-        align-items: center;
-        justify-content: center;
-
-        .icon{
-            font-size: 25px;
-            color: var(--primary-color);
-            transform: translateY(5px);
+    .logoDiv{
+        h1{
+            color: var(--black-color);
+            align-items: center;
+            justify-content: center;
+            font-size: medium;
         }
+
+        img{
+            height: 3rem;
+            width: auto;
+            margin: .5rem;
+        }
+
     }
+
+
+
     
     @media screen and (max-width: 768px) { 
         .navBar{

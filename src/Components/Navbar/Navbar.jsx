@@ -2,9 +2,10 @@ import React, {useState} from 'react'
 import { Link } from 'react-router-dom';
 import './navbar.css'
 import Dropdown from '../../Routes/Services/Dropdown/Dropdown';
-import { GiVacuumCleaner } from 'react-icons/gi';
+// import { GiVacuumCleaner } from 'react-icons/gi';
 import { AiFillCloseCircle } from 'react-icons/ai';
 import { AiOutlineMenu } from 'react-icons/ai';
+import image1 from '../../Assets/logo.png'
 
 const Navbar = () => {
     const [active, setActive] = useState('navBar')
@@ -27,11 +28,12 @@ const Navbar = () => {
         <header className='header flex'>
 
             <div className='logoDiv'>
-                <Link to="/" className='logo flex'>
-                    <h1> <GiVacuumCleaner className='icon'/>
-                        New Haven Cleaners LLC</h1>
+                <Link to="/" className='flex'>
+                <img src={image1} alt="logo" />
+                    <h1> New Haven Cleaners LLC</h1>
                 </Link>
             </div>
+
 
             <div className={active}>
                 <ul className='navLists flex'>
@@ -52,7 +54,7 @@ const Navbar = () => {
                     </button>
 
                     <button className='btn'>
-                    <a href='https://nehavencleaners.simplybook.me/v2/#' target="_blank" rel="noopener noreferrer">Book</a>
+                    <a href='https://newhavencleanersllc.simplybook.me/v2/' target="_blank" rel="noopener noreferrer">Book</a>
                     </button>
                 </ul>
 
