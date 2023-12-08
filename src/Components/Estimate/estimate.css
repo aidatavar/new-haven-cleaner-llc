@@ -74,6 +74,11 @@
   font-size: 10px;
 }
 
+.estimate .info p {
+  text-align: center;
+  padding: 2rem;
+}
+
 .estimate .form {
   padding: 2rem;
 }
@@ -86,10 +91,6 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
@@ -106,7 +107,7 @@
   outline: none;
   border-radius: 5px;
   border: 1px solid gainsboro;
-  background-color: #dfdfdf;
+  background-color: #dbecf6;
 }
 
 .estimate .form form input:focus {
@@ -123,7 +124,7 @@
   outline: none;
   border-radius: 5px;
   border: 1px solid gainsboro;
-  background-color: #dfdfdf;
+  background-color: #dbecf6;
 }
 
 .estimate .form form textarea:focus {
@@ -142,29 +143,43 @@
   border: none;
 }
 
-@media screen and (min-width: 360px) {
-  .estimate header .content .cardDiv {
-    top: 18%;
-    margin: 1rem;
-    font-size: 1rem;
-  }
-}
-
 @media screen and (min-width: 765px) {
+  .estimate header img {
+    height: 30vh;
+  }
   .estimate header .content .cardDiv {
-    top: 25%;
+    top: 17%;
     padding: 2rem;
     margin: 1rem;
-    font-size: 1rem;
   }
-  .estimate header .content .cardDiv p {
-    font-size: 15px;
+  .estimate header .content .cardDiv h1 {
+    font-size: 1.5rem;
+  }
+  .estimate .info p {
+    font-size: 1.5rem;
+  }
+  .estimate .form {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 80%;
+    margin-left: 5.9rem;
   }
 }
 
 @media screen and (min-width: 1020px) {
-  .estimate header .content .cardDiv p {
-    font-size: medium;
+  .estimate .form {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 80%;
+    margin-left: 10rem;
   }
 }
 /*# sourceMappingURL=estimate.css.map */

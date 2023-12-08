@@ -38,7 +38,7 @@ const Home = () => {
             <div className="estimate">
             <h3>Get started with your free estimate</h3>
             <button className='btn'>
-              <Link to="/Book">ESTIMATE</Link>
+            <Link to="/Estimate">Estimate</Link>
               </button>
             </div>
             <div className="vertical-line"></div>
