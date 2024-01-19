@@ -2,13 +2,11 @@ import React from 'react'
 import './footer.css'
 import image from '../../Assets/clean-room.jpeg'
 import logo from '../../Assets/logo.png'
-import { FiSend } from 'react-icons/fi'
-import { AiOutlineTwitter } from 'react-icons/ai';
-import { FaTiktok } from 'react-icons/fa';
-import {BiLogoFacebook} from 'react-icons/bi'
 import {AiFillInstagram} from 'react-icons/ai'
 import {BsFillTelephoneFill} from 'react-icons/bs'
 import {MdEmail} from 'react-icons/md'
+import { FaLinkedin } from "react-icons/fa";
+
 
 
 
@@ -30,11 +28,13 @@ const Footer = () => {
                </a>
              </div>
 
-             <div className='footerSocials flex\'>
-             <AiOutlineTwitter className='icon' /> 
-             <FaTiktok className='icon' />
-             <BiLogoFacebook className='icon' />
-             <AiFillInstagram className='icon' />
+             <div className='footerSocials flex'>
+             <a href="https://www.instagram.com/newhavencleanersct/?igsh=czJjaGpjZWtlbDM2"><AiFillInstagram className='icon'/></a>
+             <a href="https://www.instagram.com/newhavencleanersct/?igsh=czJjaGpjZWtlbDM2"><FaLinkedin className='icon'/></a>
+             <a href="tel:(475) 224-1897">
+              <BsFillTelephoneFill className="icon"/>
+             </a>
+             <a href="mailto:info@newhavencleaners.com"> <MdEmail className="icon"/> </a>
              </div>
            </div>
 
@@ -53,16 +53,18 @@ const Footer = () => {
                <span className='groupTitle'>
                  QUICK LINKS
                </span>
+            
+               <li className="footerList">
+                <a href="tel:(475) 224-1897">
+                 <BsFillTelephoneFill className="icon"/>
+                 </a>
+               </li>
+               <li className="footerList">
+                 <a href="mailto:info@newhavencleaners.com"> <MdEmail className="icon"/> </a>
+               </li>
 
-               <li className="footerList flex">
-                 <BsFillTelephoneFill className="icon"/><span>(475) 224-1897</span>
-               </li>
-               <li className="footerList flex">
-                 <MdEmail className="icon"/> <span>info@newhavencleaners.com</span>
-               </li>
              </div>
            </div>
-
            <div className="footerDiv flex">
              <small>COPYRIGHTS RESERVED - AIDA TAVAREZ 2023</small>
            </div>

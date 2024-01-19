@@ -146,11 +146,14 @@
             }
 
             .footerSocials{
-                column-gap: .5rem;
-
+               
+                flex-wrap: wrap;
+               
+                
                 .icon{
                     color: var(--black-color);
                     font-size: 20px;
+                    justify-content: space-between;
 
                     &:hover{
                         color: var(--primary-color);

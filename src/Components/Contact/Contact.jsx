@@ -1,6 +1,7 @@
 import React, {useRef} from 'react'
 import './contact.scss'
 import emailjs from '@emailjs/browser';
+import image1 from '../../Assets/windowClean.jpeg'
 
 
 const Contact = () => {
@@ -24,9 +25,20 @@ const Contact = () => {
     
       return (
         <section className='contact'>
-            <h1>Contact Us</h1>
+           
+            
+            <header>
+          <img src={image1} alt="a clean apartment" />
+          <div className="content container">
+        <div className="cardDiv">
+        <h1>Contact Us</h1>
+        </div>
+      </div>
+        </header>
 
-        <form ref={form} onSubmit={sendEmail}>
+      <section className='form'>
+
+      <form ref={form} onSubmit={sendEmail}>
           <label>Name</label>
           <input type="text"  name="to_name" id="to_name" required/>
           <label>Email</label>
@@ -35,6 +47,8 @@ const Contact = () => {
           <textarea name="message" id="message" required/>
           <input type="submit" value="Send"/>
         </form>
+      </section>
+    
         </section>
       );
     };

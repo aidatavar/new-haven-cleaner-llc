@@ -1,10 +1,10 @@
 import React, {useEffect} from 'react'
 import './hero.css'
 import image from '../../Assets/clean-home.jpeg'
-import {FiFacebook} from 'react-icons/fi'
 import {BsInstagram} from 'react-icons/bs'
 import {AiTwotoneMail} from 'react-icons/ai'
 import {AiOutlinePhone} from 'react-icons/ai'
+import { FaLinkedin } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 
 
@@ -54,12 +54,13 @@ const Home = () => {
 
     <div data-aos="fade-up" className='heroFooterIcons flex'>
       <div className='rightIcons'>
-        <FiFacebook className='icon'/>
         <BsInstagram className='icon'/>
+        <FaLinkedin className='icon'/>
+
       </div>
 
       <div className='leftIcons'>
-      <AiTwotoneMail className='icon'/>
+      <AiTwotoneMail className='icon' />
         <AiOutlinePhone className='icon'/>
       </div>
     </div>
