@@ -54,14 +54,16 @@ const Home = () => {
 
     <div data-aos="fade-up" className='heroFooterIcons flex'>
       <div className='rightIcons'>
-        <BsInstagram className='icon'/>
-        <FaLinkedin className='icon'/>
+      <a href="https://www.instagram.com/newhavencleanersct/?igsh=czJjaGpjZWtlbDM2" target="_blank"><BsInstagram className='icon'/></a>
+             <a href="https://www.linkedin.com/in/new-haven-cleaners-b8b6282a8/" target="_blank"><FaLinkedin className='icon'/></a>
 
       </div>
 
       <div className='leftIcons'>
-      <AiTwotoneMail className='icon' />
-        <AiOutlinePhone className='icon'/>
+      <a href="tel:(475) 224-1897">
+              <AiOutlinePhone className="icon"/>
+             </a>
+             <a href="mailto:info@newhavencleaners.com"> <AiTwotoneMail className="icon"/> </a>
       </div>
     </div>
 
