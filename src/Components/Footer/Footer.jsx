@@ -29,8 +29,8 @@ const Footer = () => {
              </div>
 
              <div className='footerSocials flex'>
-             <a href="https://www.instagram.com/newhavencleanersct/?igsh=czJjaGpjZWtlbDM2" target="_blank"><AiFillInstagram className='icon'/></a>
-             <a href="https://www.linkedin.com/in/new-haven-cleaners-b8b6282a8/" target="_blank"><FaLinkedin className='icon'/></a>
+             <a href="https://www.instagram.com/newhavencleanersct/?igsh=czJjaGpjZWtlbDM2" target="_blank" rel="noreferrer" ><AiFillInstagram className='icon'/></a>
+             <a href="https://www.linkedin.com/in/new-haven-cleaners-b8b6282a8/" target="_blank" rel="noreferrer"><FaLinkedin className='icon'/></a>
              <a href="tel:(475) 224-1897">
               <BsFillTelephoneFill className="icon"/>
              </a>
