@@ -24,9 +24,7 @@ const Contact = () => {
 
     
       return (
-        <section className='contact'>
-           
-            
+        <section className='contact'>   
             <header>
           <img src={image1} alt="a clean apartment" />
           <div className="content container">

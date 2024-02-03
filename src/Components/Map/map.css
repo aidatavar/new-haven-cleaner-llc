@@ -33,13 +33,6 @@
   background-color: white;
 }
 
-.map .setContent img {
-  height: 100%;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
 .map .setContent .mapContent {
   margin: 2rem;
 }
@@ -81,6 +74,9 @@
 }
 
 @media screen and (min-width: 375px) {
+  .map .setContent .column2 iframe {
+    width: 420px;
+  }
   .map .setContent .mapContent .listDiv .list li {
     font-size: small;
   }
@@ -94,21 +90,15 @@
         grid-template-columns: 1fr 1fr;
     font-size: small;
   }
-  .map .setContent img {
-    width: 100%;
+  .map .setContent .column2 iframe {
+    width: 400px;
   }
   .map .setContent .column {
     padding: 0 1rem;
   }
 }
 
-@media screen and (min-width: 1024px) {
-  .map .setContent img {
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1040px) {
   .map .setContent {
     display: -ms-grid;
     display: grid;
@@ -118,16 +108,12 @@
     margin: -1.5rem;
     width: 100%;
   }
-  .map .setContent img {
-    width: 100%;
-  }
   .map .setContent .mapContent {
     font-size: medium;
     margin-top: 4rem;
   }
-  .map .setContent .column2 {
-    padding: 0 1rem;
-    width: 100%;
+  .map .setContent .column2 iframe {
+    width: 800px;
   }
 }
 /*# sourceMappingURL=map.css.map */

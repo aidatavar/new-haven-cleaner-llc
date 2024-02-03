@@ -200,13 +200,16 @@
 }
 
 .footer .setContent .footerCard .footerSocials {
-  -webkit-column-gap: .5rem;
-          column-gap: .5rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .footer .setContent .footerCard .footerSocials .icon {
   color: var(--black-color);
   font-size: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .footer .setContent .footerCard .footerSocials .icon:hover {

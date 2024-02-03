@@ -178,7 +178,7 @@
 
 @media screen and (min-width: 1024px) {
   .hero {
-    height: 90vh;
+    height: 80vh;
   }
 }
 
@@ -194,16 +194,6 @@
     padding: 2rem 1rem;
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
-  }
-  .hero .heroContent .cardDiv .input {
-    margin-bottom: 1rem;
-  }
-  .hero .heroContent .cardDiv .searchOptions {
-    bottom: -1rem;
-    padding: 8px 1rem;
-  }
-  .hero .heroContent .cardDiv .searchOptions span {
-    font-size: 17px;
   }
 }
 /*# sourceMappingURL=hero.css.map */
