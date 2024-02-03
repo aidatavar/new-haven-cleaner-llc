@@ -31,7 +31,7 @@ const Apartment = () => {
             <h3>KITCHEN</h3>
             <p>Sanitize countertops, sink and backsplash
               Wash exterior of appliances and interior microwave
-              Wash any dirty dishes</p>
+              </p>
             <p>Wipe down table legs, chairs, barstools
               Wipe down cabinet exterior
               Wash under sink by garbage
@@ -69,7 +69,7 @@ const Apartment = () => {
           </div>
           <div className='paragraph'>
             <h3>PLUS:</h3>
-            <p>Wipe down windowsills
+            <p>Wipe down window sills
               Spot wash interior windows</p>
           </div>
         </div>
@@ -171,7 +171,7 @@ const Apartment = () => {
           </div>
 
           <div className='paragraph'>
-            <h3>Recommended Add-ons::</h3>
+            <h3>Recommended Add-ons:</h3>
             <p>Interior Oven Clean
             Interior Fridge Clean
             Complete Interior Window Clean
@@ -186,7 +186,7 @@ const Apartment = () => {
         <h3>GOOD THINGS TO KNOW:</h3>
         <p>Reliable and friendly staff <br />
     No contract required <br />
-    Easy payment options! cash or cheque <br />
+    Easy payment options! cash or check <br />
     We can provide the supplies and equipment or you can! Up to you!</p>
     </div>
 

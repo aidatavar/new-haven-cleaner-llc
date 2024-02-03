@@ -1,6 +1,5 @@
 import React from 'react'
 import './map.css'
-import image from '../../Assets/map.png'
 
 const Map = () => {
   return (
@@ -50,7 +49,13 @@ const Map = () => {
     </div>
 
     <div className="column2">
-    <img className='imageMap' src={image} alt="new haven map" />
+    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d316989.13455786277!2d-73.24827602968497!3d41.404418306916995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sConnecticut%20cities!5e0!3m2!1sen!2sus!4v1706998482352!5m2!1sen!2sus" 
+    width="430" 
+    height="450" 
+    style={{border:0}}
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
     </div>

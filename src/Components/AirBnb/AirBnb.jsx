@@ -78,7 +78,7 @@ const Airbnb = () => {
         <h3>GOOD THINGS TO KNOW:</h3>
         <p>Reliable and friendly staff <br />
     No contract required <br />
-    Easy payment options! cash or cheque <br />
+    Easy payment options! cash or check <br />
     We can provide the supplies and equipment or you can! Up to you!</p>
     </div>
 

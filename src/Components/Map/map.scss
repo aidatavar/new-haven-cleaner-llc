@@ -26,13 +26,6 @@
         width: 100%;
         background-color: white;
 
-        img{
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-            
-            }
-
     .mapContent{
         margin: 2rem;
 
@@ -101,17 +94,6 @@
     }
  }
 
- @media screen and (min-width: 1024px) {
-     .map{
-         .setContent{
-            img{
-                width: 100%;
-            }
-         }
-     }
-
-
- }
 
 @media screen and (min-width: 1440px) {
     .map{
@@ -122,10 +104,6 @@
          font-size: small;
          margin: -1.5rem;
          width: 100%;
-         
-         img{
-            width: 100%;
-        }
 
          .mapContent{
              font-size: medium;

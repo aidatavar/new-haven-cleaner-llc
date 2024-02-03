@@ -41,9 +41,9 @@ const Office = () => {
         <div className='col'>
           <div className='paragraph'>
             <h3>DEEP CLEANING TASKS:</h3>
-            <p>Clean interior windows (remove window stickers)
-              Carpet cleaning, available by request
-              Wipe down computer chairs/desk legs
+            <p>Clean interior windows,
+              carpet cleaning, available by request
+              Wipe down computer chairs/desk legs.
               Deep Kitchen clean
               Baseboards/casings & doors
             </p>
@@ -56,7 +56,7 @@ const Office = () => {
         <h3>GOOD THINGS TO KNOW:</h3>
         <p>Reliable and friendly staff <br />
     No contract required <br />
-    Easy payment options! cash or cheque <br />
+    Easy payment options! cash or check <br />
     We can provide the supplies and equipment or you can! Up to you!</p>
     </div>
     

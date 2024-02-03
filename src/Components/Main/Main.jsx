@@ -32,7 +32,7 @@ const main = () => {
         <div className='item'>
           <BiHomeSmile className='icon'/>
         <h2 className='subtitle'>HAPPY</h2>
-        <span className='small-text'>Come to your home and be happy with what we've done to you!</span>
+        <span className='small-text'>Come to your home and be happy with what we've done to your place!</span>
         </div>
       </div>
     </section>
