@@ -124,20 +124,41 @@
                 align-items: flex-start;
                 flex-direction: column;
                 row-gap: .5rem;
-            }
 
-            .logoDiv{
-                .logo{
-                    color: var(--black-color);
-                    font-weight: 600;
-
-                    img{
-                        height: 3rem;
-                        width: auto;
-                        margin: .5rem;
+                .logoDiv{
+                    .logo{
+                        color: var(--black-color);
+                        font-weight: 600;
+    
+                        img{
+                            height: 3rem;
+                            width: auto;
+                            margin: .5rem;
+                        }
                     }
                 }
+
+                .footerSocials{
+               
+                    flex-wrap: wrap;
+                   
+                    a{
+                        margin: 2px;
+
+                        .icon{
+                            color: var(--black-color);
+                            font-size: 20px;
+        
+                            &:hover{
+                                color: var(--primary-color);
+                            }
+                        }
+                    }
+                    
+                }
             }
+
+    
 
             .footerParagraph{
                 font-size: 13px;
@@ -145,21 +166,7 @@
 
             }
 
-            .footerSocials{
-               
-                flex-wrap: wrap;
-               
-                
-                .icon{
-                    color: var(--black-color);
-                    font-size: 20px;
-                    justify-content: space-between;
 
-                    &:hover{
-                        color: var(--primary-color);
-                    }
-                }
-            }
 
             .footerLinks{
                 flex-basis: 50%;
@@ -177,7 +184,7 @@
                         color: var(--black-color);
                         margin-bottom: .5rem;
                     }
-
+                
                     .footerList{
                         font-size: 15px;
                         color: var(--text-color);

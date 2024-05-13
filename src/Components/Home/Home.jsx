@@ -39,7 +39,7 @@ const Home = () => {
             <div className='paragraph'>
               <h3>BATHROOM</h3>
               <p>Wipe-wash-polish sinks, tub/shower
-                Wipe-wash-polish toilets, base and bowl
+                Wipe-wash-polish toilets, baseboards
                 Clean mirrors</p>
               <p>Wipe down cabinet exterior
                 Polish all chrome surfaces
@@ -117,7 +117,7 @@ const Home = () => {
             <div className='paragraph'>
               <h3>BATHROOM</h3>
               <p>Wipe-wash-polish sinks, tub/shower
-                Wipe-wash-polish toilets, base and bowl
+                Wipe-wash-polish toilets, baseboards
                 Clean mirrors</p>
             </div>
             <div className='paragraph'>

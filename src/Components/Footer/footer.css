@@ -183,37 +183,38 @@
   row-gap: .5rem;
 }
 
-.footer .setContent .footerCard .logoDiv .logo {
+.footer .setContent .footerCard .footerIntro .logoDiv .logo {
   color: var(--black-color);
   font-weight: 600;
 }
 
-.footer .setContent .footerCard .logoDiv .logo img {
+.footer .setContent .footerCard .footerIntro .logoDiv .logo img {
   height: 3rem;
   width: auto;
   margin: .5rem;
 }
 
-.footer .setContent .footerCard .footerParagraph {
-  font-size: 13px;
-  color: var(--text-color);
-}
-
-.footer .setContent .footerCard .footerSocials {
+.footer .setContent .footerCard .footerIntro .footerSocials {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
 
-.footer .setContent .footerCard .footerSocials .icon {
-  color: var(--black-color);
-  font-size: 20px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+.footer .setContent .footerCard .footerIntro .footerSocials a {
+  margin: 2px;
 }
 
-.footer .setContent .footerCard .footerSocials .icon:hover {
+.footer .setContent .footerCard .footerIntro .footerSocials a .icon {
+  color: var(--black-color);
+  font-size: 20px;
+}
+
+.footer .setContent .footerCard .footerIntro .footerSocials a .icon:hover {
   color: var(--primary-color);
+}
+
+.footer .setContent .footerCard .footerParagraph {
+  font-size: 13px;
+  color: var(--text-color);
 }
 
 .footer .setContent .footerCard .footerLinks {

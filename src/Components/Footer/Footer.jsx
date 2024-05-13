@@ -6,6 +6,7 @@ import {AiFillInstagram} from 'react-icons/ai'
 import {BsFillTelephoneFill} from 'react-icons/bs'
 import {MdEmail} from 'react-icons/md'
 import { FaLinkedin } from "react-icons/fa";
+import { FaYelp } from "react-icons/fa";
 
 
 
@@ -35,6 +36,9 @@ const Footer = () => {
               <BsFillTelephoneFill className="icon"/>
              </a>
              <a href="mailto:info@newhavencleaners.com"> <MdEmail className="icon"/> </a>
+
+             <a href="https://www.yelp.com/biz/new-haven-cleaners-east-haven" target="_blank" rel="noreferrer"> <FaYelp className="icon"/> </a>
+             
              </div>
            </div>
 
@@ -53,7 +57,6 @@ const Footer = () => {
                <span className='groupTitle'>
                  QUICK LINKS
                </span>
-            
                <li className="footerList">
                 <a href="tel:(475) 224-1897">
                  <BsFillTelephoneFill className="icon"/>
@@ -62,8 +65,11 @@ const Footer = () => {
                <li className="footerList">
                  <a href="mailto:info@newhavencleaners.com"> <MdEmail className="icon"/> </a>
                </li>
+               <li className="footerList">
+                 <a href="https://www.yelp.com/biz/new-haven-cleaners-east-haven" target="_blank" rel="noreferrer"> <FaYelp className="icon"/> </a>
+               </li>
 
-             </div>
+             </div>       
            </div>
            <div className="footerDiv flex">
              <small>COPYRIGHTS RESERVED - AIDA TAVAREZ 2023</small>
