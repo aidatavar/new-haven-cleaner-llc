@@ -11,7 +11,8 @@ const Office = () => {
       <img src={image1} alt="a clean office" />
       <div className="content container">
         <div className="cardDiv">
-          <h1>OFFICE</h1>
+          <h1>Office</h1>
+          <p>Office cleaning services, customizable to suit your needs.</p>
         </div>
       </div>
     </header>

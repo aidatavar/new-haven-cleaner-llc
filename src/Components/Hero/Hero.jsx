@@ -46,8 +46,7 @@ const Home = () => {
               <h3 >Book with us</h3>
               
             <button className='btn'>
-            <a href='https://clienthub.getjobber.com/booking/28438908-1057-463e-b68e-cd396c73af59' target="_blank">START BOOKING</a>
-
+              <a href='https://newhavencleanersllc.simplybook.me/v2/' target="_blank">START BOOKING</a>
               </button>
             </div>
 

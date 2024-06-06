@@ -14,7 +14,6 @@
 }
 
 .home{
-    
     letter-spacing: 1px;
 
     header{
@@ -34,7 +33,6 @@
         }
     
         .content{
-
             text-align: center;
     
         .cardDiv{
@@ -59,6 +57,17 @@
 
     }
     
+    .mainHeader{
+        margin: 1.5rem;
+        text-align: center;
+
+        h2{
+            text-transform: uppercase;
+            font-weight: 400;
+            font-family: poppins, sans-serif;
+            padding: .5rem;
+        }
+    }
 
     .mainContent{
         margin: 2rem;
@@ -89,8 +98,9 @@
         text-align: center;
         margin: 2rem;
 
-        span{
+        p{
             color: var(--text-color);
+            padding-bottom: 2rem;
         }
 
         .headingCustomize{

@@ -59,6 +59,18 @@
   color: var(--text-color);
 }
 
+.home .mainHeader {
+  margin: 1.5rem;
+  text-align: center;
+}
+
+.home .mainHeader h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: poppins, sans-serif;
+  padding: .5rem;
+}
+
 .home .mainContent {
   margin: 2rem;
   text-align: center;
@@ -86,8 +98,9 @@
   margin: 2rem;
 }
 
-.home .threeCol span {
+.home .threeCol p {
   color: var(--text-color);
+  padding-bottom: 2rem;
 }
 
 .home .threeCol .headingCustomize h4 {

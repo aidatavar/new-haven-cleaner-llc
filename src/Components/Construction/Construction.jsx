@@ -11,7 +11,8 @@ const Construction = () => {
       <img src={image1} alt="cleaning post-construction house" />
       <div className="content container">
         <div className="cardDiv">
-          <h1>POST-CONSTRUCTION</h1>
+          <h1>Post-construction</h1>
+          <p>A contractor in need of cleaning a new-build or a home owner fighting with reno dust we are ready to make your work shine.</p>
         </div>
       </div>
     </header>
@@ -22,20 +23,20 @@ const Construction = () => {
     </div>
     <div className="content">
             <h3>COMMON TASKS COMPLETED:</h3>
-            <ul>
-              <li>Swiffer all walls</li>
-              <li>Dust and wipe down all baseboards/casing/doors</li>
-              <li>Clean interior windows (screens, sills, glass and tracks)</li>
-              <li>Clean interior and exterior cabinets throughout home</li>
-              <li>Clean all interior and exterior of all appliances</li>
-              <li>Dust and wipe down all light fixtures</li>
-              <li>Wash, scrub all bathrooms, toilets, sinks</li>
-              <li>Clean all mirrors and glass throughout home</li>
-              <li>Sweep and vacuum all floors</li>
-              <li>Vacuum and mop stairs going into basement (if needed)</li>
-              <li>Wipe down any built ins, fireplaces, shelves</li>
-            </ul>
-            <p>Any thing else we find necessary to make it move-in (staging) ready</p>
+            <p>
+            Swifter all walls (dry mop) <br />
+            Dust and wipe down all baseboards/casing/doors <br />
+            Clean interior windows (screens, sills, glass and tracks) <br />
+            Clean interior and exterior cabinets throughout home <br />
+            Clean all interior and exterior of all appliances <br />
+            Dust and wipe down all light fixtures <br />
+            Wash, scrub and sanitize all bathrooms (toilets, baths, sinks) <br />
+            Clean all mirrors and glass throughout home <br />
+            Sweep/vacuum and wash all floors <br />
+            Vacuum and mop stairs going into basement (if needed) <br />
+            Wipe down any louvres, fireplaces, shelves, built-ins etc. <br />
+
+           Any thing else we find necessary to make it move-in (staging) ready</p>
 
     </div>
     <div className="content">
