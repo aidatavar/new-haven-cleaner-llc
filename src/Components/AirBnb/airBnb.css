@@ -93,6 +93,45 @@
   color: var(--text-color);
 }
 
+.airbnb .threeCol {
+  text-align: center;
+  margin: 2rem;
+}
+
+.airbnb .threeCol span {
+  color: var(--text-color);
+}
+
+.airbnb .threeCol .headingCustomize h4 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.5rem;
+  padding: 1rem;
+  z-index: 1;
+}
+
+.airbnb .threeCol .headingCustomize hr {
+  margin-bottom: 1rem;
+}
+
+.airbnb .threeCol .col2 {
+  margin: .5rem;
+}
+
+.airbnb .threeCol .col2 h5 {
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-top: .5rem;
+  font-family: italic;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.airbnb .threeCol .col2 p {
+  margin-top: .5rem;
+}
+
 .airbnb .content {
   text-align: center;
   font-size: .8rem;

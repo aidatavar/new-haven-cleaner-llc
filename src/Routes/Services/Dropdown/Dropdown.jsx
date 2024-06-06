@@ -17,13 +17,13 @@ const Dropdown = () => {
         {isActive && (
         <div className="dropdown-content">
             <div className="dropdown-item">
-                <Link to="/Home">Home</Link>
+                <Link to="/deep-cleaning">Residential Deep Cleaning</Link>
             </div>
             <div className="dropdown-item">
-            <Link to="/Apartment">Apartment</Link>
+            <Link to="/regular-cleaning">Regular Cleaning</Link>
             </div>
             <div className="dropdown-item">
-            <Link to="/Airbnb">Airbnb</Link>
+            <Link to="/move-in">Move in/ Move out Cleaning</Link>
             </div>
             <div className="dropdown-item">
             <Link to="/Office">Office</Link>
