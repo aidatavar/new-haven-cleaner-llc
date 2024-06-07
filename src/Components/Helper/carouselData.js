@@ -4,24 +4,23 @@ import image3 from '../../Assets/Airbnb.jpeg'
 import image4 from '../../Assets/office.webp'
 import image5 from '../../Assets/post-construction.jpeg'
 import { Link } from 'react-router-dom';
-
 export const images = [
     {
-        title: "Home",
-        paragraph: "Leave the cleaning to us while you create lasting memories. Our home cleaning services guarantee a fresh, spotless, and sparkling-clean living space.",
-        button: <Link to="/Home">Learn More</Link>,
+        title: "Residential Deep Cleaning",
+        paragraph: "Revitalize your home with our comprehensive residential deep cleaning service. Our expert team meticulously attends to every corner, ensuring a spotless environment that sparkles with freshness. From dusting high to scrubbing low, we leave no surface untouched, leaving your space immaculate and inviting.",
+        button: <Link to="/residential-deep-cleaning">Learn More</Link>,
         img: image1
     },
     {
-        title: "Apartment",
-        paragraph: "Transform your apartment with our deep cleaning services! Move-in ready, we ensure a fresh, inviting space. Let us handle the cleaning, so you can enjoy your new home to the fullest.",
-        button: <Link to="/Apartment">Learn more</Link>,
+        title: "Residential Cleaning",
+        paragraph: "Elevate your living space with our professional residential cleaning service. We'll swiftly tackle dust, dirt, and grime, leaving your home refreshed and gleaming. Our meticulous attention to detail ensures a clean and comfortable environment for you and your family to enjoy.",
+        button: <Link to="/residential-cleaning">Learn more</Link>,
         img: image2
     },
     {
-        title: "Airbnb",
-        paragraph: "Elevate your Airbnb with our meticulous cleaning for seamless check-ins and a standout guest experience. Trust us to make your space welcoming effortlessly.",
-        button: <Link to="/Airbnb">Learn more</Link>,
+        title: "Move In / Move Out",
+        paragraph: "Transition smoothly with our move-in/move-out cleaning service. Whether you're settling into a new home or bidding farewell to an old one, our dedicated team ensures a pristine space. From top to bottom, we leave no corner untouched, providing a fresh start or a seamless handover for your peace of mind..",
+        button: <Link to="/move-in">Learn more</Link>,
         img: image3
     },
     {

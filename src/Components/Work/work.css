@@ -1,0 +1,31 @@
+:root {
+  --primary-color: hsl(199, 100%, 33%);
+  --secondary-color: hsl(187, 85%, 43%);
+  --gradient-color: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 100%, 33%));
+  --white-color: hsl(0, 0%, 100%);
+  --black-color: hsl(201, 33%, 16%);
+  --text-color: hsl(240, 4%, 36%);
+  --white-color-cream: hsl(0, 0%, 93%);
+  --grey-text: rgb(190, 190, 190);
+  --input-color: rgb(239, 239, 239);
+  --body-color: rgb(246, 249, 250);
+  --card-bg-color: rgb(225, 225, 225);
+}
+
+.work header {
+  padding-top: 8rem;
+  text-align: center;
+  background: var(--primary-color);
+  color: white;
+  -webkit-box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+}
+
+.work .paragraph {
+  text-align: center;
+}
+
+.work section {
+  padding: 2rem;
+}
+/*# sourceMappingURL=work.css.map */

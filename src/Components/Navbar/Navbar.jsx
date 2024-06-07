@@ -46,6 +46,10 @@ const Navbar = () => {
                     </li>
 
                     <li className='navItem'>
+                        <Link to="/work" className='navLink'>Our work</Link>
+                    </li>
+
+                    <li className='navItem'>
                     <Link to="/Contact" className='navLink'>Contact</Link>
                     </li>
 
@@ -54,7 +58,7 @@ const Navbar = () => {
                     </button>
 
                     <button className='btn'>
-                    <a href='https://newhavencleanersllc.simplybook.me/v2/' target="_blank" rel="noopener noreferrer">Book</a>
+                    <a href='https://clienthub.getjobber.com/booking/28438908-1057-463e-b68e-cd396c73af59' target="_blank" rel="noopener noreferrer">Book</a>
                     </button>
                 </ul>
 

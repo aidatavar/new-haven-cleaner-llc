@@ -14,63 +14,75 @@ const Apartment = () => {
       <img src={image1} alt="a clean apartment" />
       <div className="content container">
         <div className="cardDiv">
-          <h1>Apartment</h1>
-          <p>Apartment and Moving cleaning services, customizable to suit your needs.</p>
+        <h1>RESIDENTIAL REGULAR CLEANING</h1>
         </div>
       </div>
     </header>
 
     <section className='two-col'>
-      <div className='mainHeader'>
-        <h2>Premium apartment clean</h2>
-        <p>Weekly, Biweekly, Monthly or One-Time Cleaning Visits Available</p>
-      </div>
       <div className='mainContent'>
         <div className='col'>
           <div className='paragraph'>
             <h3>KITCHEN</h3>
-            <p>Sanitize countertops, sink and backsplash
-              Wash exterior of appliances and interior microwave
-              </p>
-            <p>Wipe down table legs, chairs, barstools
-              Wipe down cabinet exterior
-              Wash under sink by garbage
-            </p>
+            <ul>
+                <li>Clean countertops and backsplash</li>
+                <li>Wipe down all exterior surfaces of appliances (fridge, stove, microwave, dishwasher)</li>
+                <li>Clean sink and polish faucet</li>
+                <li>Wipe down cabinet exteriors</li>
+                <li>Clean inside and outside of microwave</li>
+                <li>Clean range hood and filters</li>
+                <li>Sweep and mop floors</li>
+                <li>Empty trash bin and replace liner</li>
+                <li>Dust baseboards</li>
+                <li>Dust light fixtures</li>
+              </ul>
           </div>
           <div className='paragraph'>
-            <h3>BATHROOM</h3>
-            <p>Wipe-wash-polish sinks, tub/shower
-              Wipe-wash-polish toilets, baseboards
-              Clean mirrors</p>
-            <p>Wipe down cabinet exterior
-              Polish all chrome surfaces
-              Wipe down baseboards
-            </p>
+          <h3>LIVING ROOM:</h3>
+              <ul>
+                <li>Clean under and behind furniture</li>
+                <li>Dust wall and dust baseboards</li>
+                <li>Dust all surfaces (furniture, shelves, decor items)</li>
+                <li>Vacuum carpets and rugs</li>
+                <li>Sweep and mop hard floors</li>
+                <li>Clean glass surfaces (tables, mirrors)</li>
+                <li>Fluff and strengthen cushions</li>
+                <li>Clean light fixtures and ceilings fans</li>
+              </ul>
           </div>
         </div>
 
         <div className='col'>
           <div className='paragraph'>
-            <h3>BEDROOMS</h3>
-            <p>Quick tidy and pick up
-              Dust all surfaces throughout apartment
-              Make beds
-            </p>
+          <h3>BATHROOM</h3>
+            <ul>
+            <li>Clean under and behind furniture</li>
+              <li>Dust walls and dust baseboards</li>
+              <li>Clean counter tops and faucets</li>
+              <li>Clean and disinfect toilets</li>
+              <li>Clean shower and tubs</li>
+              <li>Wipe down mirrors</li>
+              <li>Clean and shine fixtures</li>
+              <li>Sweep and mop floors</li>
+              <li>Empty trash bin and replace liner</li>
+              </ul>
           </div>
           <div className='paragraph'>
-            <h3>ENTIRE APARTMENT</h3>
-            <p>Quick tidy and pick up
-              Dust all surfaces throughout apartment
-            </p>
-            <p>Wet wipe all surfaces throughout apartment
-              Sanitize door knobs and light switches
-              Empty All Garbages
-              Sweep/Vacuum and Wash All Floors</p>
+          <h3>BEDROOMS</h3>
+            <ul>
+                <li>Clean under and behind furniture</li>
+                <li>Dust wall and dust baseboards</li>
+                <li>Dust all surfaces (furniture, shelves, decor items)</li>
+                <li>Vacuum carpets and rugs</li>
+                <li>Sweep and mop hard floors</li>
+                <li>Make beds (change liners if agreed with client)</li>
+
+                <li>Clean mirrors</li>
+              </ul>
           </div>
           <div className='paragraph'>
-            <h3>PLUS:</h3>
-            <p>Wipe down window sills
-              Spot wash interior windows</p>
+          <h3>ADDITIONAL SERVICE:</h3>
+              <p>Laundry</p>
           </div>
         </div>
       </div>
