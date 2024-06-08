@@ -14,7 +14,7 @@ const About = () => {
       <div className="aboutContent">
         <h2 >About Us</h2>
         <div className="textDiv">
-          <p>Welcome to New Haven Cleaners LLC your space, our expertise. With a commitment to excellence, we turn spaces into pristine sanctuaries. Our reliable team prioritizes punctuality, environmental responsibility, and, above all, your satisfaction. Let us handle the cleaning, so you can focus on what matters most. Trust New Haven Cleaners LLC for a spotless, stress-free environment.</p>
+          <p> Welcome to New Haven Cleaners LLC, where two sisters lead a dedicated team committed to delivering exceptional cleaning services. As co-owners, we bring our passion for cleanliness and attention to detail to every job. Our goal is to provide reliable, high quality cleaning services that exceed your expectations. With our flexible scheduling and attention to detail, you can rest assured that your home is in capable hands. Your happiness is our top priority. If there's ever anything you're not completely satisfied with, we'll go above and beyond to make it right. </p>
         </div>
       </div>
       </div>

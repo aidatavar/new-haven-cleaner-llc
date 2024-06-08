@@ -1,10 +1,9 @@
 import React from 'react'
 import './airBnb.css'
 import image01 from '../../Assets/Airbnb.jpeg'
-import image from '../../Assets/apartment.jpeg'
-import image2 from '../../Assets/fridgeClean.jpeg'
-import image3 from '../../Assets/interiorOven.jpeg'
-import image4 from '../../Assets/windowClean.jpeg'
+import image2 from '../../Assets/IMG_5201.jpg'
+import image3 from '../../Assets/IMG_5051.jpg'
+import image4 from '../../Assets/IMG_9256.jpg'
 import { Link } from 'react-router-dom'
 
 const Airbnb = () => {

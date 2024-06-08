@@ -185,11 +185,12 @@
     margin: 1rem;
   }
   .home .threeCol .colContent img {
-    max-width: 100%;
-    height: 200px;
+    width: 200px;
+    height: 300px;
     background-size: cover;
-    -o-object-fit: cover;
-       object-fit: cover;
+    -o-object-fit: fill;
+       object-fit: fill;
+    image-rendering: auto;
   }
 }
 

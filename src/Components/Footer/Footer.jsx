@@ -49,7 +49,7 @@ const Footer = () => {
                  ABOUT THE COMPANY
                </span>
 
-               <p>Discover the joy of a spotless space with New Haven Cleaners LLC. Elevate your environment with our expert cleaning services – where excellence meets cleanliness. Experience the difference today!</p>
+               <p>At New Haven Cleaners LLC we believe that a clean home is a happy place. Our goal is to make your life simple by delivering a clean service you can rely on.</p>
              </div>
              
             {/* Group two */}

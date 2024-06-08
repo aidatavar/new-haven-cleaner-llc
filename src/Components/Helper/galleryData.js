@@ -13,16 +13,16 @@ import image11 from '../../Assets/before_after10.jpg'
 import image12 from '../../Assets/before_after11.jpg'
 
 export const images = [
-  {src: image1, width: 800, height: 600},
-  {src: image2, width: 800, height: 600},
-  {src: image3, width: 800, height: 600},
-  {src: image4, width: 800, height: 600},
-  {src: image5, width: 800, height: 600},
-  {src: image6, width: 800, height: 600},
-  {src: image7, width: 800, height: 600},
-  {src: image8, width: 800, height: 600},
-  {src: image9, width: 800, height: 600},
-  {src: image10, width: 800, height: 600},
-  {src: image11, width: 800, height: 600},
-  {src: image12, width: 800, height: 600}
+  {img: image1, id: 0},
+  {img: image2, id: 1},
+  {img: image3, id: 2},
+  {img: image4, id: 3},
+  {img: image5, id: 4},
+  {img: image6, id: 5},
+  {img: image7, id: 6},
+  {img: image8, id: 8},
+  {img: image9, id: 9},
+  {img: image10, id: 10},
+  {img: image11, id: 11},
+  {img: image12, id: 12}
 ]
